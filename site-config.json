@@ -870,7 +870,17 @@
           "link": "https://dreamese.github.io/dreamesestudio/",
           "linkLabel": "Truy cập website →"
         },
-        "socialLinks": []
+        "socialLinks": [
+          {
+            "platform": "website",
+            "label": "Dreamese Studio",
+            "url": "https://dreamese.github.io/dreamesestudio/",
+            "mobile": {
+              "label": "Dreamese Studio",
+              "url": "https://dreamese.github.io/dreamesestudio/"
+            }
+          }
+        ]
       }
     ],
     "mobile": {
