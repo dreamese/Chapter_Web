@@ -7,3 +7,4 @@
 .start span,.read-more span,.header-contact,.journey-footer nav a,.journey-controls button{font-family:Arial,sans-serif}
 
 .arrow-icon{width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0}
+@media(min-width:821px){.journey-end{width:max(650px,100vw)}}
