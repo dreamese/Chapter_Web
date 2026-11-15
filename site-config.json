@@ -1,5 +1,5 @@
 {
-  "version": "0.7.3",
+  "version": "0.8.0",
   "brand": {
     "browserTitle": "Dreamese Studio — Architecture & Interior Design",
     "favicon": "assets/logo/dreamese-mark.png",
@@ -161,190 +161,241 @@
   },
   "projects": [
     {
-      "chapter": "11",
+      "chapter": "01",
       "title": "Rustania Homes",
-      "subtitle": "Mô tả ngắn",
-      "category": "Loại dự án",
-      "image": "PROJECTS/RUSTANIA/A_ExC_008.1.png",
-      "description": "Nội dung giới thiệu dự án.",
-      "href": "#",
+      "subtitle": "Trải nghiệm sức sống mới",
+      "category": "Biệt thự",
+      "image": "PROJECTS/RUSTANIA/A_ExC_008.1.webp",
+      "description": "Trải nghiệm sức sống mới",
+      "href": "Rustania.html",
       "mobile": {
         "title": "Rustania Homes",
-        "subtitle": "Mô tả ngắn",
-        "category": "Loại dự án",
-        "image": "PROJECTS/RUSTANIA/A_ExC_008.1.png",
-        "description": "Nội dung giới thiệu dự án.",
-        "href": "#"
-      }
-    },
-    {
-      "chapter": "10",
-      "title": "Squid Villa",
-      "subtitle": "Mô tả ngắn",
-      "category": "Loại dự án",
-      "image": "PROJECTS/SquidVilla/Squid (1).jpg",
-      "description": "Nội dung giới thiệu dự án.",
-      "href": "#",
-      "mobile": {
-        "title": "Squid Villa",
-        "subtitle": "Mô tả ngắn",
-        "category": "Loại dự án",
-        "image": "PROJECTS/SquidVilla/Squid (1).jpg",
-        "description": "Nội dung giới thiệu dự án.",
-        "href": "#"
-      }
-    },
-    {
-      "chapter": "09",
-      "title": "Phú Cường Villa",
-      "subtitle": "Mô tả ngắn",
-      "category": "Loại dự án",
-      "image": "PROJECTS/SimplePC/Ext_006.1.png",
-      "description": "Nội dung giới thiệu dự án.",
-      "href": "#",
-      "mobile": {
-        "title": "Phú Cường Villa",
-        "subtitle": "Mô tả ngắn",
-        "category": "Loại dự án",
-        "image": "PROJECTS/SimplePC/Ext_006.1.png",
-        "description": "Nội dung giới thiệu dự án.",
-        "href": "#"
-      }
-    },
-    {
-      "chapter": "06",
-      "title": "T&T Villa",
-      "subtitle": "Sự tương phản trong ánh nhìn",
-      "category": "Biệt thự",
-      "image": "PROJECTS/TT_Villa/ExC_02.1.jpg",
-      "description": "Một cấu trúc sống được tổ chức bằng tương phản sáng — tối, đặc — rỗng và những khoảng chuyển tiếp mềm mại.",
-      "href": "https://dreamese.github.io/dreamesestudio/TT_Villa.html",
-      "mobile": {
-        "title": "T&T Villa",
-        "subtitle": "Sự tương phản trong ánh nhìn",
+        "subtitle": "Trải nghiệm sức sống mới",
         "category": "Biệt thự",
-        "image": "PROJECTS/TT_Villa/ExC_02.1.jpg",
-        "description": "Một cấu trúc sống được tổ chức bằng tương phản sáng — tối, đặc — rỗng và những khoảng chuyển tiếp mềm mại.",
-        "href": "https://dreamese.github.io/dreamesestudio/TT_Villa.html"
-      }
-    },
-    {
-      "chapter": "07",
-      "title": "Touch House",
-      "subtitle": "Điểm chạm của không gian",
-      "category": "Nhà ở",
-      "image": "PROJECTS/TouchHome/ExC_02.1.png",
-      "description": "Vật liệu, ánh sáng và chuyển động giao nhau tại những điểm chạm nhỏ, tạo nên trải nghiệm sống giàu cảm giác.",
-      "href": "#",
-      "mobile": {
-        "title": "Touch House",
-        "subtitle": "Điểm chạm của không gian",
-        "category": "Nhà ở",
-        "image": "PROJECTS/TouchHome/ExC_02.1.png",
-        "description": "Vật liệu, ánh sáng và chuyển động giao nhau tại những điểm chạm nhỏ, tạo nên trải nghiệm sống giàu cảm giác.",
-        "href": "#"
-      }
-    },
-    {
-      "chapter": "08",
-      "title": "Lavender Restaurant",
-      "subtitle": "Giá trị chuyển biến",
-      "category": "Nhà hàng",
-      "image": "PROJECTS/Lavender/C8.jpg",
-      "description": "Không gian ẩm thực được xây dựng như một chuỗi chuyển cảnh, linh hoạt giữa tính riêng tư và bầu không khí cộng đồng.",
-      "href": "https://dreamese.github.io/dreamesestudio/Lavender.html",
-      "mobile": {
-        "title": "Lavender Restaurant",
-        "subtitle": "Giá trị chuyển biến",
-        "category": "Nhà hàng",
-        "image": "PROJECTS/Lavender/C8.jpg",
-        "description": "Không gian ẩm thực được xây dựng như một chuỗi chuyển cảnh, linh hoạt giữa tính riêng tư và bầu không khí cộng đồng.",
-        "href": "https://dreamese.github.io/dreamesestudio/Lavender.html"
-      }
-    },
-    {
-      "chapter": "05",
-      "title": "Nhuận Home",
-      "subtitle": "Về nhà",
-      "category": "Biệt thự",
-      "image": "PROJECTS/PN1/PN1_ExC_09.1.png",
-      "description": "Một tổ ấm gần gũi, cân bằng giữa công năng, cảm giác thân thuộc và sự tinh giản của kiến trúc đương đại.",
-      "href": "#",
-      "mobile": {
-        "title": "Nhuận Home",
-        "subtitle": "Về nhà",
-        "category": "Biệt thự",
-        "image": "PROJECTS/PN1/PN1_ExC_09.1.png",
-        "description": "Một tổ ấm gần gũi, cân bằng giữa công năng, cảm giác thân thuộc và sự tinh giản của kiến trúc đương đại.",
-        "href": "#"
-      }
-    },
-    {
-      "chapter": "04",
-      "title": "Cù Lao Villa",
-      "subtitle": "Theo luồng cảm xúc",
-      "category": "Biệt thự",
-      "image": "PROJECTS/TranPhuong_Villa/TP-Villa_ExC_02.1.png",
-      "description": "Hành trình không gian được mở theo từng lớp cảnh quan, từ vùng đệm riêng tư đến những khoảng sinh hoạt rộng mở.",
-      "href": "#",
-      "mobile": {
-        "title": "Cù Lao Villa",
-        "subtitle": "Theo luồng cảm xúc",
-        "category": "Biệt thự",
-        "image": "PROJECTS/TranPhuong_Villa/TP-Villa_ExC_02.1.png",
-        "description": "Hành trình không gian được mở theo từng lớp cảnh quan, từ vùng đệm riêng tư đến những khoảng sinh hoạt rộng mở.",
-        "href": "#"
-      }
-    },
-    {
-      "chapter": "03",
-      "title": "Breath Villa",
-      "subtitle": "Lắng nghe những nhịp chậm",
-      "category": "Biệt thự",
-      "image": "PROJECTS/Chateur_QL_Villa/Chateur_ExC_02.jpg",
-      "description": "Các khoảng thở, sân trong và lớp cây xanh được đan xen để đưa khí trời len sâu vào đời sống hằng ngày.",
-      "href": "#",
-      "mobile": {
-        "title": "Breath Villa",
-        "subtitle": "Lắng nghe những nhịp chậm",
-        "category": "Biệt thự",
-        "image": "PROJECTS/Chateur_QL_Villa/Chateur_ExC_02.jpg",
-        "description": "Các khoảng thở, sân trong và lớp cây xanh được đan xen để đưa khí trời len sâu vào đời sống hằng ngày.",
-        "href": "#"
+        "image": "PROJECTS/RUSTANIA/A_ExC_008.1.webp",
+        "description": "Trải nghiệm sức sống mới",
+        "href": "Rustania.html"
       }
     },
     {
       "chapter": "02",
-      "title": "TVT Home",
-      "subtitle": "Trỗi dậy và bứt phá",
-      "category": "Nhà phố",
-      "image": "PROJECTS/TVT_House/F1.jpg",
-      "description": "Một ngôi nhà đô thị với những khoảng mở có chủ đích, kết nối nhiều tầng sinh hoạt trong một hình khối cô đọng.",
-      "href": "#",
+      "title": "Lean Villa",
+      "subtitle": "Điểm tựa tinh thần",
+      "category": "Biệt thự",
+      "image": "PROJECTS/Lean_Villa/ExC_05.2.webp",
+      "description": "Điểm tựa tinh thần",
+      "href": "Lean_Villa.html",
       "mobile": {
-        "title": "TVT Home",
-        "subtitle": "Trỗi dậy và bứt phá",
-        "category": "Nhà phố",
-        "image": "PROJECTS/TVT_House/F1.jpg",
-        "description": "Một ngôi nhà đô thị với những khoảng mở có chủ đích, kết nối nhiều tầng sinh hoạt trong một hình khối cô đọng.",
-        "href": "#"
+        "title": "Lean Villa",
+        "subtitle": "Điểm tựa tinh thần",
+        "category": "Biệt thự",
+        "image": "PROJECTS/Lean_Villa/ExC_05.2.webp",
+        "description": "Điểm tựa tinh thần",
+        "href": "Lean_Villa.html"
       }
     },
     {
-      "chapter": "01",
+      "chapter": "03",
+      "title": "T&T Villa",
+      "subtitle": "Sự tương phản trong ánh nhìn",
+      "category": "Biệt thự",
+      "image": "PROJECTS/TT_Villa/ExC_06.1.webp",
+      "description": "Sự tương phản trong ánh nhìn",
+      "href": "TT_Villa.html",
+      "mobile": {
+        "title": "T&T Villa",
+        "subtitle": "Sự tương phản trong ánh nhìn",
+        "category": "Biệt thự",
+        "image": "PROJECTS/TT_Villa/ExC_06.1.webp",
+        "description": "Sự tương phản trong ánh nhìn",
+        "href": "TT_Villa.html"
+      }
+    },
+    {
+      "chapter": "04",
       "title": "Thu Điếu",
       "subtitle": "Nốt nhạc tĩnh của thanh âm",
       "category": "Biệt thự",
-      "image": "PROJECTS/Thu_Dieu/ExC_01.2.jpg",
-      "description": "Không gian hướng đến sự tĩnh tại, nơi ánh sáng tự nhiên, mặt nước và các lớp vật liệu tạo nên nhịp điệu chậm.",
-      "href": "#",
+      "image": "PROJECTS/Thu_Dieu/ExC_01.2.webp",
+      "description": "Nốt nhạc tĩnh của thanh âm",
+      "href": "NamThien1.html",
       "mobile": {
         "title": "Thu Điếu",
         "subtitle": "Nốt nhạc tĩnh của thanh âm",
         "category": "Biệt thự",
-        "image": "PROJECTS/Thu_Dieu/ExC_01.2.jpg",
-        "description": "Không gian hướng đến sự tĩnh tại, nơi ánh sáng tự nhiên, mặt nước và các lớp vật liệu tạo nên nhịp điệu chậm.",
-        "href": "#"
+        "image": "PROJECTS/Thu_Dieu/ExC_01.2.webp",
+        "description": "Nốt nhạc tĩnh của thanh âm",
+        "href": "NamThien1.html"
+      }
+    },
+    {
+      "chapter": "05",
+      "title": "Mr Đặng Villa",
+      "subtitle": "Không phù phiếm",
+      "category": "Biệt thự",
+      "image": "PROJECTS/SimplePC/Ext_001.3.webp",
+      "description": "Không phù phiếm",
+      "href": "SimplePC.html",
+      "mobile": {
+        "title": "Mr Đặng Villa",
+        "subtitle": "Không phù phiếm",
+        "category": "Biệt thự",
+        "image": "PROJECTS/SimplePC/Ext_001.3.webp",
+        "description": "Không phù phiếm",
+        "href": "SimplePC.html"
+      }
+    },
+    {
+      "chapter": "06",
+      "title": "TVT Home",
+      "subtitle": "Trỗi dậy và bứt phá",
+      "category": "Nhà phố",
+      "image": "PROJECTS/TVT_House/F1.webp",
+      "description": "Trỗi dậy và Bức phá",
+      "href": "TVT.html",
+      "mobile": {
+        "title": "TVT Home",
+        "subtitle": "Trỗi dậy và bứt phá",
+        "category": "Nhà phố",
+        "image": "PROJECTS/TVT_House/F1.webp",
+        "description": "Trỗi dậy và Bức phá",
+        "href": "TVT.html"
+      }
+    },
+    {
+      "chapter": "07",
+      "title": "Breath Villa",
+      "subtitle": "Lắng nghe những nhịp chậm",
+      "category": "Biệt thự",
+      "image": "PROJECTS/Chateur_QL_Villa/Chateur_ExC_02.webp",
+      "description": "Lắng nghe những nhịp chậm",
+      "href": "Chateur.html",
+      "mobile": {
+        "title": "Breath Villa",
+        "subtitle": "Lắng nghe những nhịp chậm",
+        "category": "Biệt thự",
+        "image": "PROJECTS/Chateur_QL_Villa/Chateur_ExC_02.webp",
+        "description": "Lắng nghe những nhịp chậm",
+        "href": "Chateur.html"
+      }
+    },
+    {
+      "chapter": "08",
+      "title": "Cù Lao Villa",
+      "subtitle": "Theo luồng cảm xúc",
+      "category": "Biệt thự",
+      "image": "PROJECTS/TranPhuong_Villa/TP-Villa_Up_02.1.webp",
+      "description": "Theo luồng cảm xúc",
+      "href": "TranPhuong.html",
+      "mobile": {
+        "title": "Cù Lao Villa",
+        "subtitle": "Theo luồng cảm xúc",
+        "category": "Biệt thự",
+        "image": "PROJECTS/TranPhuong_Villa/TP-Villa_Up_02.1.webp",
+        "description": "Theo luồng cảm xúc",
+        "href": "TranPhuong.html"
+      }
+    },
+    {
+      "chapter": "09",
+      "title": "Nhuận Home",
+      "subtitle": "Về nhà",
+      "category": "Biệt thự",
+      "image": "PROJECTS/PN1/PN1_ExC_09.1.webp",
+      "description": "Về nhà",
+      "href": "PN1.html",
+      "mobile": {
+        "title": "Nhuận Home",
+        "subtitle": "Về nhà",
+        "category": "Biệt thự",
+        "image": "PROJECTS/PN1/PN1_ExC_09.1.webp",
+        "description": "Về nhà",
+        "href": "PN1.html"
+      }
+    },
+    {
+      "chapter": "10",
+      "title": "Touch House",
+      "subtitle": "Điểm chạm của không gian",
+      "category": "Biệt thự",
+      "image": "PROJECTS/TouchHome/ExC_01.1.webp",
+      "description": "Điểm chạm của không gian",
+      "href": "Touch.html",
+      "mobile": {
+        "title": "Touch House",
+        "subtitle": "Điểm chạm của không gian",
+        "category": "Biệt thự",
+        "image": "PROJECTS/TouchHome/ExC_01.1.webp",
+        "description": "Điểm chạm của không gian",
+        "href": "Touch.html"
+      }
+    },
+    {
+      "chapter": "11",
+      "title": "Lavender Restaurant",
+      "subtitle": "Giá trị chuyển biến",
+      "category": "Nhà hàng",
+      "image": "PROJECTS/Lavender/C8.webp",
+      "description": "Giá trị chuyển biến",
+      "href": "Lavender.html",
+      "mobile": {
+        "title": "Lavender Restaurant",
+        "subtitle": "Giá trị chuyển biến",
+        "category": "Nhà hàng",
+        "image": "PROJECTS/Lavender/C8.webp",
+        "description": "Giá trị chuyển biến",
+        "href": "Lavender.html"
+      }
+    },
+    {
+      "chapter": "12",
+      "title": "Heal Hill",
+      "subtitle": "Góc thiền",
+      "category": "Nhà ở nghỉ dưỡng - Bungalow",
+      "image": "PROJECTS/TN_Cottage/TN_Bal_02.webp",
+      "description": "Góc thiền",
+      "href": "Heal_Hill.html",
+      "mobile": {
+        "title": "Heal Hill",
+        "subtitle": "Góc thiền",
+        "category": "Nhà ở nghỉ dưỡng - Bungalow",
+        "image": "PROJECTS/TN_Cottage/TN_Bal_02.webp",
+        "description": "Góc thiền",
+        "href": "Heal_Hill.html"
+      }
+    },
+    {
+      "chapter": "13",
+      "title": "ThanVanNhiep Office",
+      "subtitle": "Riêng tư cởi mở",
+      "category": "Văn phòng",
+      "image": "PROJECTS/ThanVanNhiep/C8.webp",
+      "description": "Riêng tư cởi mở",
+      "href": "ThanVanNhiep.html",
+      "mobile": {
+        "title": "ThanVanNhiep Office",
+        "subtitle": "Riêng tư cởi mở",
+        "category": "Văn phòng",
+        "image": "PROJECTS/ThanVanNhiep/C8.webp",
+        "description": "Riêng tư cởi mở",
+        "href": "ThanVanNhiep.html"
+      }
+    },
+    {
+      "chapter": "14",
+      "title": "Ada Office",
+      "subtitle": "Đối thoại",
+      "category": "Văn phòng",
+      "image": "PROJECTS/Ada_Office/Ada_0F_02.2.webp",
+      "description": "Đối thoại",
+      "href": "Ada.html",
+      "mobile": {
+        "title": "Ada Office",
+        "subtitle": "Đối thoại",
+        "category": "Văn phòng",
+        "image": "PROJECTS/Ada_Office/Ada_0F_02.2.webp",
+        "description": "Đối thoại",
+        "href": "Ada.html"
       }
     }
   ],
@@ -357,13 +408,13 @@
         "name": "Thiết kế — Thi công trọn gói",
         "summary": "Đồng bộ từ thẩm mỹ thiết kế, kỹ thuật thi công và chịu trách nhiệm trên toàn bộ ngân sách xây dựng.",
         "image": "assets/services/design-build-cartoon.webp",
-        "href": "https://dreamese.github.io/dreamesestudio/Qtr_TKTC.html",
+        "href": "Qtr_TKTC.html",
         "linkLabel": "Quy trình triển khai →",
         "mobile": {
           "name": "Thiết kế — Thi công trọn gói",
           "summary": "Đồng bộ từ thẩm mỹ thiết kế, kỹ thuật thi công và chịu trách nhiệm trên toàn bộ ngân sách xây dựng.",
           "image": "assets/services/design-build-cartoon.webp",
-          "href": "https://dreamese.github.io/dreamesestudio/Qtr_TKTC.html",
+          "href": "Qtr_TKTC.html",
           "linkLabel": "Quy trình triển khai →"
         }
       },
@@ -372,13 +423,13 @@
         "name": "Thiết kế — Quản lý Dự án",
         "summary": "Đảm bảo và kiểm soát tính nhất quán từ bản vẽ thiết kế, hồ sơ kỹ thuật đến công tác triển khai thi công.",
         "image": "assets/services/project-management-cartoon.webp",
-        "href": "https://dreamese.github.io/dreamesestudio/Qtr_QLDA.html",
+        "href": "Qtr_QLDA.html",
         "linkLabel": "Quy trình triển khai →",
         "mobile": {
           "name": "Thiết kế — Quản lý Dự án",
           "summary": "Đảm bảo và kiểm soát tính nhất quán từ bản vẽ thiết kế, hồ sơ kỹ thuật đến công tác triển khai thi công.",
           "image": "assets/services/project-management-cartoon.webp",
-          "href": "https://dreamese.github.io/dreamesestudio/Qtr_QLDA.html",
+          "href": "Qtr_QLDA.html",
           "linkLabel": "Quy trình triển khai →"
         }
       },
@@ -387,13 +438,13 @@
         "name": "Thiết kế Kiến trúc",
         "summary": "Tối ưu không gian sử dụng, thẩm mỹ hình khối và xây dựng bản sắc riêng cho câu chuyện của công trình.",
         "image": "assets/services/architecture-cartoon.webp",
-        "href": "https://dreamese.github.io/dreamesestudio/Qtr_TKKT.html",
+        "href": "Qtr_TKKT.html",
         "linkLabel": "Quy trình triển khai →",
         "mobile": {
           "name": "Thiết kế Kiến trúc",
           "summary": "Tối ưu không gian sử dụng, thẩm mỹ hình khối và xây dựng bản sắc riêng cho câu chuyện của công trình.",
           "image": "assets/services/architecture-cartoon.webp",
-          "href": "https://dreamese.github.io/dreamesestudio/Qtr_TKKT.html",
+          "href": "Qtr_TKKT.html",
           "linkLabel": "Quy trình triển khai →"
         }
       },
@@ -402,13 +453,13 @@
         "name": "Thiết kế Nội thất",
         "summary": "Đồng bộ vật liệu và chi phí tối ưu với chất lượng phù hợp nhất, hướng đến lối sống cá nhân hóa.",
         "image": "assets/services/interior-cartoon.webp",
-        "href": "https://dreamese.github.io/dreamesestudio/Qtr_TKNT.html",
+        "href": "Qtr_TKNT.html",
         "linkLabel": "Quy trình triển khai →",
         "mobile": {
           "name": "Thiết kế Nội thất",
           "summary": "Đồng bộ vật liệu và chi phí tối ưu với chất lượng phù hợp nhất, hướng đến lối sống cá nhân hóa.",
           "image": "assets/services/interior-cartoon.webp",
-          "href": "https://dreamese.github.io/dreamesestudio/Qtr_TKNT.html",
+          "href": "Qtr_TKNT.html",
           "linkLabel": "Quy trình triển khai →"
         }
       }
@@ -1545,5 +1596,6 @@
       "eyebrow": "Contact",
       "title": "Dreamese Studio — Đồng hành kiến tạo không gian sống."
     }
-  }
+  },
+  "contentRevision": "chapter-local-20261116"
 }

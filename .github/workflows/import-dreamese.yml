@@ -1,0 +1,37 @@
+name: Import Dreamese project assets
+on:
+  push:
+    branches: [update/local-projects-services]
+    paths:
+      - scripts/dreamese-assets.json
+      - scripts/import-dreamese-assets.py
+      - .github/workflows/import-dreamese.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: import-dreamese-assets
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow==12.0.0
+      - run: python scripts/import-dreamese-assets.py
+      - run: python scripts/verify-site.py
+      - name: Save copied assets in Chapter_Web
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add PROJECTS Process CSS/Fonts Dreamese_Studio.webp MT_Logo.webp TITAN_Logo.webp
+          if ! git diff --cached --quiet; then
+            git commit -m "Copy all Dreamese project and process assets into Chapter_Web"
+            git push origin HEAD:${{ github.ref_name }}
+          fi

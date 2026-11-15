@@ -116,7 +116,7 @@
 
   function normalizeV06(config, defaults) {
     const normalized = mergeDeep(clone(defaults), config || {});
-    normalized.version = '0.7.3';
+    normalized.version = '0.8.0';
 
     normalized.brand.browserTitle = normalized.brand.browserTitle || normalized.brand.name || defaults.brand.browserTitle;
     normalized.brand.favicon = normalized.brand.favicon || normalized.brand.logo || defaults.brand.favicon;
@@ -312,6 +312,19 @@
     }
 
     const combined = mergeDeep(mergeDeep(defaults, fileConfig || {}), storedConfig || {});
+    // Projects and service routes moved into Chapter_Web in this release.
+    const release = fileConfig || defaults;
+    if (storedConfig && storedConfig.contentRevision !== release.contentRevision) {
+      combined.projects = clone(release.projects);
+      (combined.service?.items || []).forEach((item, index) => {
+        const current = release.service?.items?.[index];
+        if (!current) return;
+        item.href = current.href;
+        if (item.mobile) item.mobile.href = current.href;
+      });
+      combined.contentRevision = release.contentRevision;
+      migratedLegacy = true;
+    }
     const normalized = normalizeV06(combined, defaults);
 
     if (migratedLegacy) {
