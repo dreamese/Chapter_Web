@@ -15,6 +15,7 @@
       const value = desktop.matches ? panel.offsetLeft : rect.top + rect.height / 2;
       if (Math.abs(value - center) < distance) { active = i; distance = Math.abs(value - center); }
     });
+    if (desktop.matches && journey.scrollLeft >= journey.scrollWidth - journey.clientWidth - 2) active = panels.length - 1;
     links.forEach((link, i) => { if (i === active) link.setAttribute('aria-current', 'step'); else link.removeAttribute('aria-current'); });
     previous.disabled = active === 0;
     next.disabled = active === panels.length - 1;
@@ -24,6 +25,15 @@
     const panel = panels[Math.max(0, Math.min(index, panels.length - 1))];
     panel.scrollIntoView({behavior: reduceMotion.matches ? 'instant' : 'smooth', block: desktop.matches ? 'nearest' : 'start', inline: 'start'});
   }
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    const index = panels.findIndex(panel => '#' + panel.id === link.getAttribute('href'));
+    if (index < 0) return;
+    link.addEventListener('click', event => {
+      event.preventDefault();
+      history.replaceState(null, '', '#' + panels[index].id);
+      go(index);
+    });
+  });
   previous.addEventListener('click', () => go(active - 1));
   next.addEventListener('click', () => go(active + 1));
   let scheduled = false;
@@ -55,5 +65,7 @@
     });
   });
   desktop.addEventListener('change', () => {go(active);update();});
+  const initial = panels.findIndex(panel => '#' + panel.id === location.hash);
+  if (initial >= 0) requestAnimationFrame(() => go(initial));
   update();
 })();
