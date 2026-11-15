@@ -1,29 +1,29 @@
 {
   "version": "0.7.3",
   "brand": {
-    "browserTitle": "Titan Construction — Architecture Design & Build",
-    "favicon": "TITAN_Logo.png",
-    "metaDescription": "Titan Construction — Architecture Design & Build",
+    "browserTitle": "Dreamese Studio — Architecture & Interior Design",
+    "favicon": "assets/logo/dreamese-mark.png",
+    "metaDescription": "Dreamese Studio — Kiến trúc & Nội thất",
     "themeColor": "#050505",
-    "name": "TITAN CONSTRUCTION",
-    "tagline": "Make your ideas come true",
-    "logo": "TITAN_Logo.png",
+    "name": "DREAMESE STUDIO",
+    "tagline": "Dịch giả ngôn ngữ giấc mơ",
+    "logo": "assets/logo/dreamese-mark.png",
     "logoLink": "index.html",
-    "email": "titanconstruction68kg@gmail.com",
-    "phone": "0912 51 52 58",
+    "email": "vtv.arc@gmail.com",
+    "phone": "09 4363 4758",
     "location": "TP. Hồ Chí Minh, Việt Nam",
-    "socialLabel": "Instagram / TikTok",
-    "socialUrl": "https://www.tiktok.com/@quoclinh258",
+    "socialLabel": "Website Dreamese",
+    "socialUrl": "https://dreamese.github.io/dreamesestudio/",
     "mobile": {
-      "name": "TITAN CONSTRUCTION",
-      "tagline": "Make your ideas come true",
-      "logo": "TITAN_Logo.png",
+      "name": "DREAMESE STUDIO",
+      "tagline": "Dịch giả ngôn ngữ giấc mơ",
+      "logo": "assets/logo/dreamese-mark.png",
       "logoLink": "index.html",
-      "email": "titanconstruction68kg@gmail.com",
-      "phone": "0912 51 52 58",
+      "email": "vtv.arc@gmail.com",
+      "phone": "09 4363 4758",
       "location": "TP. Hồ Chí Minh, Việt Nam",
-      "socialLabel": "Instagram / TikTok",
-      "socialUrl": "https://www.tiktok.com/@quoclinh258"
+      "socialLabel": "Website Dreamese",
+      "socialUrl": "https://dreamese.github.io/dreamesestudio/"
     }
   },
   "navigation": [
@@ -99,7 +99,7 @@
   },
   "about": {
     "eyebrow": "About Us",
-    "title": "Make your ideas come true",
+    "title": "Thiết kế không gian như viết 1 câu chuyện sống",
     "intro": "Hân hạnh được đồng hành trên chặng đường hiện thực hóa ý tưởng của khách hàng.",
     "slides": [
       {
@@ -147,7 +147,7 @@
     ],
     "mobile": {
       "eyebrow": "About Us",
-      "title": "Make your ideas come true",
+      "title": "Thiết kế không gian như viết 1 câu chuyện sống",
       "intro": "Hân hạnh được đồng hành trên chặng đường hiện thực hóa ý tưởng của khách hàng."
     }
   },
@@ -424,13 +424,13 @@
     "items": [
       {
         "title": "TikTok Video 10",
-        "label": "Titan Construction",
+        "label": "Dreamese Studio",
         "image": "",
         "description": "Video TikTok được gắn thử trực tiếp vào popup Media. Nhấn OPEN VIDEO để mở video gốc.",
         "url": "https://www.tiktok.com/@quoclinh258/video/7666387664395963655",
         "mobile": {
           "title": "TikTok Video 10",
-          "label": "Titan Construction",
+          "label": "Dreamese Studio",
           "image": "",
           "description": "Video TikTok được gắn thử trực tiếp vào popup Media. Nhấn OPEN VIDEO để mở video gốc.",
           "url": "https://www.tiktok.com/@quoclinh258/video/7666387664395963655"
@@ -438,13 +438,13 @@
       },
       {
         "title": "TikTok Video 09",
-        "label": "Titan Construction",
+        "label": "Dreamese Studio",
         "image": "assets/projects/02-thu-dieu.svg",
         "description": "Video TikTok được gắn thử trực tiếp vào popup Media. Nhấn OPEN VIDEO để mở video gốc.",
         "url": "https://www.tiktok.com/@quoclinh258/video/7609638041191238919",
         "mobile": {
           "title": "TikTok Video 09",
-          "label": "Titan Construction",
+          "label": "Dreamese Studio",
           "image": "assets/projects/02-thu-dieu.svg",
           "description": "Video TikTok được gắn thử trực tiếp vào popup Media. Nhấn OPEN VIDEO để mở video gốc.",
           "url": "https://www.tiktok.com/@quoclinh258/video/7609638041191238919"
@@ -452,13 +452,13 @@
       },
       {
         "title": "TikTok Video 08",
-        "label": "Titan Construction",
+        "label": "Dreamese Studio",
         "image": "assets/projects/03-tvt-home.svg",
         "description": "Video TikTok được gắn thử trực tiếp vào popup Media. Nhấn OPEN VIDEO để mở video gốc.",
         "url": "https://www.tiktok.com/@quoclinh258/video/7657872311017688327",
         "mobile": {
           "title": "TikTok Video 08",
-          "label": "Titan Construction",
+          "label": "Dreamese Studio",
           "image": "assets/projects/03-tvt-home.svg",
           "description": "Video TikTok được gắn thử trực tiếp vào popup Media. Nhấn OPEN VIDEO để mở video gốc.",
           "url": "https://www.tiktok.com/@quoclinh258/video/7657872311017688327"
@@ -466,13 +466,13 @@
       },
       {
         "title": "TikTok Video 07",
-        "label": "Titan Construction",
+        "label": "Dreamese Studio",
         "image": "assets/projects/04-breath-villa.svg",
         "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
         "url": "https://www.tiktok.com/@quoclinh258/video/7655275351576300807?is_from_webapp=1&sender_device=pc",
         "mobile": {
           "title": "TikTok Video 07",
-          "label": "Titan Construction",
+          "label": "Dreamese Studio",
           "image": "assets/projects/04-breath-villa.svg",
           "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
           "url": "https://www.tiktok.com/@quoclinh258/video/7655275351576300807?is_from_webapp=1&sender_device=pc"
@@ -480,13 +480,13 @@
       },
       {
         "title": "TikTok Video 06",
-        "label": "Titan Construction",
+        "label": "Dreamese Studio",
         "image": "assets/projects/05-cu-lao-villa.svg",
         "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
         "url": "https://www.tiktok.com/@quoclinh258/video/7643058790228577543?is_from_webapp=1&sender_device=pc",
         "mobile": {
           "title": "TikTok Video 06",
-          "label": "Titan Construction",
+          "label": "Dreamese Studio",
           "image": "assets/projects/05-cu-lao-villa.svg",
           "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
           "url": "https://www.tiktok.com/@quoclinh258/video/7643058790228577543?is_from_webapp=1&sender_device=pc"
@@ -494,13 +494,13 @@
       },
       {
         "title": "TikTok Video 05",
-        "label": "Titan Construction",
+        "label": "Dreamese Studio",
         "image": "assets/projects/06-nhuan-home.svg",
         "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
         "url": "https://www.tiktok.com/@quoclinh258/video/7640450483592629512?is_from_webapp=1&sender_device=pc",
         "mobile": {
           "title": "TikTok Video 05",
-          "label": "Titan Construction",
+          "label": "Dreamese Studio",
           "image": "assets/projects/06-nhuan-home.svg",
           "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
           "url": "https://www.tiktok.com/@quoclinh258/video/7640450483592629512?is_from_webapp=1&sender_device=pc"
@@ -508,13 +508,13 @@
       },
       {
         "title": "TikTok Video 04",
-        "label": "Titan Construction",
+        "label": "Dreamese Studio",
         "image": "assets/projects/07-touch-house.svg",
         "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
         "url": "https://www.tiktok.com/@quoclinh258/video/7654546108517027080?is_from_webapp=1&sender_device=pc",
         "mobile": {
           "title": "TikTok Video 04",
-          "label": "Titan Construction",
+          "label": "Dreamese Studio",
           "image": "assets/projects/07-touch-house.svg",
           "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
           "url": "https://www.tiktok.com/@quoclinh258/video/7654546108517027080?is_from_webapp=1&sender_device=pc"
@@ -522,13 +522,13 @@
       },
       {
         "title": "TikTok Video 03",
-        "label": "Titan Construction",
+        "label": "Dreamese Studio",
         "image": "assets/projects/08-lavender.svg",
         "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
         "url": "https://www.tiktok.com/@quoclinh258/video/7638951938238729480?is_from_webapp=1&sender_device=pc",
         "mobile": {
           "title": "TikTok Video 03",
-          "label": "Titan Construction",
+          "label": "Dreamese Studio",
           "image": "assets/projects/08-lavender.svg",
           "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
           "url": "https://www.tiktok.com/@quoclinh258/video/7638951938238729480?is_from_webapp=1&sender_device=pc"
@@ -536,13 +536,13 @@
       },
       {
         "title": "TikTok Video 02",
-        "label": "Titan Construction",
+        "label": "Dreamese Studio",
         "image": "assets/projects/02-thu-dieu.svg",
         "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
         "url": "https://www.tiktok.com/@quoclinh258/video/7667904213527317768?is_from_webapp=1&sender_device=pc",
         "mobile": {
           "title": "TikTok Video 02",
-          "label": "Titan Construction",
+          "label": "Dreamese Studio",
           "image": "assets/projects/02-thu-dieu.svg",
           "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
           "url": "https://www.tiktok.com/@quoclinh258/video/7667904213527317768?is_from_webapp=1&sender_device=pc"
@@ -550,13 +550,13 @@
       },
       {
         "title": "TikTok Video 01",
-        "label": "Titan Construction",
+        "label": "Dreamese Studio",
         "image": "assets/projects/03-tvt-home.svg",
         "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
         "url": "https://www.tiktok.com/@quoclinh258/video/7645623328882937096?is_from_webapp=1&sender_device=pc",
         "mobile": {
           "title": "TikTok Video 01",
-          "label": "Titan Construction",
+          "label": "Dreamese Studio",
           "image": "assets/projects/03-tvt-home.svg",
           "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
           "url": "https://www.tiktok.com/@quoclinh258/video/7645623328882937096?is_from_webapp=1&sender_device=pc"
@@ -789,14 +789,14 @@
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "TITIAN CONSTRUCTION — Hiện thực hóa ý tưởng của bạn.",
+    "title": "Dreamese Studio — Đồng hành kiến tạo không gian sống.",
     "cards": [
       {
         "type": "info",
         "title": "Thông tin liên hệ",
         "lines": [
-          "Hotline: 091 251 52 58 — Mr. LĨNH",
-          "Email: titanconstruction68kg@gmail.com"
+          "Hotline: 09 4363 4758 — KTS. Vương",
+          "Email: vtv.arc@gmail.com"
         ],
         "image": "",
         "link": "mailto:vtv.arc@gmail.com",
@@ -804,8 +804,8 @@
         "mobile": {
           "title": "Thông tin liên hệ",
           "lines": [
-            "Hotline: 091 251 52 58 — Mr. LĨNH",
-            "Email: titanconstruction68kg@gmail.com"
+            "Hotline: 09 4363 4758 — KTS. Vương",
+            "Email: vtv.arc@gmail.com"
           ],
           "image": "",
           "link": "mailto:vtv.arc@gmail.com",
@@ -816,7 +816,8 @@
         "type": "address",
         "title": "Địa chỉ",
         "lines": [
-          "Trụ sở: A14-16, đường số 5, KĐT Tây Bắc, P. Rạch Giá, An Giang"
+          "Cơ sở 1: Trần Văn Thời — Cà Mau",
+          "Cơ sở 2: 11/8/32 ĐHT 17, P. Đông Hưng Thuận, TP.HCM"
         ],
         "image": "",
         "link": "#",
@@ -824,7 +825,8 @@
         "mobile": {
           "title": "Địa chỉ",
           "lines": [
-            "Trụ sở: A14-16, đường số 5, KĐT Tây Bắc, P. Rạch Giá, An Giang"
+            "Cơ sở 1: Trần Văn Thời — Cà Mau",
+            "Cơ sở 2: 11/8/32 ĐHT 17, P. Đông Hưng Thuận, TP.HCM"
           ],
           "image": "",
           "link": "#",
@@ -835,77 +837,45 @@
         "type": "maps",
         "title": "Maps",
         "lines": [
-          "Tìm Titan Construction trên Google Maps"
+          "Liên hệ Dreamese Studio để được hướng dẫn đến văn phòng."
         ],
-        "image": "assets/uploads/eee40dc656050611343ee55c.jpg",
-        "link": "https://maps.app.goo.gl/giVfq9DPF6GcBJQZA",
-        "linkLabel": "Mở Google Maps →",
+        "image": "",
+        "link": "mailto:vtv.arc@gmail.com",
+        "linkLabel": "Hỏi đường đến studio →",
         "mobile": {
           "title": "Maps",
           "lines": [
-            "Tìm Titan Construction trên Google Maps"
+            "Liên hệ Dreamese Studio để được hướng dẫn đến văn phòng."
           ],
-          "image": "assets/uploads/eee40dc656050611343ee55c.jpg",
-          "link": "https://maps.app.goo.gl/giVfq9DPF6GcBJQZA",
-          "linkLabel": "Mở Google Maps →"
+          "image": "",
+          "link": "mailto:vtv.arc@gmail.com",
+          "linkLabel": "Hỏi đường đến studio →"
         }
       },
       {
         "type": "social",
-        "title": "Social",
+        "title": "Website",
         "lines": [
-          "Instagram",
-          "TikTok",
-          "Facebook"
+          "Dreamese Studio — Kiến trúc & Nội thất"
         ],
         "image": "",
-        "link": "https://www.tiktok.com/@quoclinh258",
-        "linkLabel": "Theo dõi Dreamese →",
+        "link": "https://dreamese.github.io/dreamesestudio/",
+        "linkLabel": "Truy cập website →",
         "mobile": {
-          "title": "Social",
+          "title": "Website",
           "lines": [
-            "Instagram",
-            "TikTok",
-            "Facebook"
+            "Dreamese Studio — Kiến trúc & Nội thất"
           ],
           "image": "",
-          "link": "https://www.tiktok.com/@quoclinh258",
-          "linkLabel": "Theo dõi Dreamese →"
+          "link": "https://dreamese.github.io/dreamesestudio/",
+          "linkLabel": "Truy cập website →"
         },
-        "socialLinks": [
-          {
-            "platform": "instagram",
-            "label": "Instagram",
-            "url": "",
-            "mobile": {
-              "label": "Instagram",
-              "url": ""
-            }
-          },
-          {
-            "platform": "tiktok",
-            "label": "TikTok",
-            "url": "https://www.tiktok.com/@quoclinh258",
-            "mobile": {
-              "label": "TikTok",
-              "url": "https://www.tiktok.com/@quoclinh258"
-            }
-          },
-          {
-            "platform": "facebook",
-            "label": "Facebook",
-            "url": "https://www.facebook.com/profile.php?id=61574102260177",
-            "mobile": {
-              "label": "Facebook",
-              "url": "https://www.facebook.com/profile.php?id=61574102260177"
-            }
-          }
-        ]
+        "socialLinks": []
       }
     ],
     "mobile": {
       "eyebrow": "Contact",
-      "title": "TITIAN CONSTRUCTION — Hiện thực hóa ý tưởng của bạn."
+      "title": "Dreamese Studio — Đồng hành kiến tạo không gian sống."
     }
   }
 }
