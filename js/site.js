@@ -500,44 +500,44 @@
     });
   }
 
+  let blogPreviewObserver;
   function renderMedia() {
+    blogPreviewObserver?.disconnect();
     q('#mediaEyebrow').textContent = deviceValue(config.media, 'eyebrow', config.media.eyebrow);
     q('#mediaTitle').textContent = deviceValue(config.media, 'title', config.media.title);
     mediaRail.innerHTML = config.media.items.map((item, index) => {
       const title = deviceValue(item, 'title', item.title);
-      const image = String(deviceValue(item, 'image', item.image) || '').trim();
-      return `
-        <article class="media-card" tabindex="0" data-media-index="${index}">
-          <div class="media-visual">
-            ${image ? `<img src="${escapeHtml(image)}" alt="${escapeHtml(title)}" loading="lazy">` : ''}
-            <div class="media-cover-placeholder${image ? ' is-hidden' : ''}">
-              <span>♪</span>
-            </div>
-            <span class="media-play">▶</span>
-          </div>
-          <div class="media-copy"><small>${escapeHtml(deviceValue(item, 'label', item.label))}</small><h3>${escapeHtml(title)}</h3></div>
-        </article>
-      `;
+      const url = normalizeMediaUrl(deviceValue(item, 'url', item.url));
+      const id = getTikTokVideoId(url);
+      return `<article class="media-card" data-media-index="${index}">
+        <div class="media-visual" data-post-id="${escapeHtml(id)}">
+          <div class="media-cover-placeholder"><span>♪</span><small>Đang tải TikTok…</small></div>
+        </div>
+        <div class="media-copy"><small>@dreamese.studio</small><h3>${escapeHtml(title)}</h3>
+          <button type="button" class="blog-expand">Xem lớn</button>
+          <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Mở trên TikTok ↗</a>
+        </div></article>`;
     }).join('');
-    qa('.media-card').forEach((card) => {
-      const index = Number(card.dataset.mediaIndex);
-      const image = q('img', card);
-      const placeholder = q('.media-cover-placeholder', card);
-      image?.addEventListener('error', () => {
-        image.hidden = true;
-        placeholder?.classList.remove('is-hidden');
+    blogPreviewObserver = new IntersectionObserver(entries => {
+      entries.forEach(({target, isIntersecting}) => {
+        const frame = target.querySelector('iframe');
+        if (!isIntersecting) { frame?.remove(); return; }
+        if (frame || !target.dataset.postId) return;
+        const player = document.createElement('iframe');
+        player.title = 'Preview TikTok — Dreamese Studio';
+        player.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+        player.allowFullscreen = true;
+        player.referrerPolicy = 'origin';
+        player.src = 'https://www.tiktok.com/player/v1/' + target.dataset.postId +
+          '?autoplay=1&muted=1&controls=1&loop=1&description=0&music_info=0&rel=0';
+        target.append(player);
       });
-      loadTikTokThumbnail(config.media.items[index], card);
-      card.addEventListener('click', () => openMedia(index));
-      card.addEventListener('keydown', (event) => {
-        if (event.key === 'Enter' || event.key === ' ') {
-          event.preventDefault();
-          openMedia(index);
-        }
-      });
+    }, { threshold: 0.1 });
+    qa('.media-card').forEach(card => {
+      blogPreviewObserver.observe(q('.media-visual', card));
+      q('.blog-expand', card).addEventListener('click', () => openMedia(Number(card.dataset.mediaIndex)));
     });
     enableHorizontalWheel(mediaRail);
-    enableDragScroll(mediaRail);
   }
 
   function renderNews() {

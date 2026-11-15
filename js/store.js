@@ -217,19 +217,6 @@
       });
     });
 
-    // Nếu dữ liệu v0.4 vẫn đang dùng link kênh chung, tự gắn ba video thử nghiệm của v0.6.
-    const starterLinks = [
-      'https://www.tiktok.com/@quoclinh258/video/7666387664395963655',
-      'https://www.tiktok.com/@quoclinh258/video/7609638041191238919',
-      'https://www.tiktok.com/@quoclinh258/video/7657872311017688327'
-    ];
-    starterLinks.forEach((url, index) => {
-      const item = normalized.media?.items?.[index];
-      if (!item) return;
-      if (!String(item.url || '').includes('/video/')) item.url = url;
-      if (!String(item.mobile?.url || '').includes('/video/')) item.mobile.url = item.url;
-    });
-
     syncSharedContent(normalized);
     return normalized;
   }

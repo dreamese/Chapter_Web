@@ -1,24 +1,29 @@
 window.DREAMESE_DEFAULT_CONFIG = {
   "version": "0.7.3",
   "brand": {
-    "browserTitle": "DREAMESE STUDIO — Architecture & Interior Design",
+    "browserTitle": "Dreamese Studio — Architecture & Interior Design",
     "favicon": "assets/logo/dreamese-mark.png",
-    "metaDescription": "Dreamese Studio — Architecture & Interior Design.",
+    "metaDescription": "Dreamese Studio — Kiến trúc & Nội thất",
     "themeColor": "#050505",
     "name": "DREAMESE STUDIO",
     "tagline": "Dịch giả ngôn ngữ giấc mơ",
     "logo": "assets/logo/dreamese-mark.png",
-    "logoLink": "#projects",
+    "logoLink": "index.html",
     "email": "vtv.arc@gmail.com",
     "phone": "09 4363 4758",
     "location": "TP. Hồ Chí Minh, Việt Nam",
-    "socialLabel": "Instagram / TikTok",
-    "socialUrl": "https://www.tiktok.com/@quoclinh258",
+    "socialLabel": "Website Dreamese",
+    "socialUrl": "https://dreamese.github.io/dreamesestudio/",
     "mobile": {
       "name": "DREAMESE STUDIO",
       "tagline": "Dịch giả ngôn ngữ giấc mơ",
       "logo": "assets/logo/dreamese-mark.png",
-      "logoLink": "#projects"
+      "logoLink": "index.html",
+      "email": "vtv.arc@gmail.com",
+      "phone": "09 4363 4758",
+      "location": "TP. Hồ Chí Minh, Việt Nam",
+      "socialLabel": "Website Dreamese",
+      "socialUrl": "https://dreamese.github.io/dreamesestudio/"
     }
   },
   "navigation": [
@@ -81,7 +86,7 @@ window.DREAMESE_DEFAULT_CONFIG = {
     "mediaCardWidth": 260,
     "contactCardWidth": 360,
     "cardRadius": 26,
-    "headingSizeDesktop": 72,
+    "headingSizeDesktop": 48,
     "headingSizeMobile": 50,
     "bodySize": 16,
     "projectTitleSize": 58,
@@ -94,56 +99,56 @@ window.DREAMESE_DEFAULT_CONFIG = {
   },
   "about": {
     "eyebrow": "About Us",
-    "title": "Những câu chuyện được kể lại bằng không gian sống thật.",
-    "intro": "Dreamese Studio tin rằng mỗi công trình luôn bắt đầu từ con người và những câu chuyện mang tính ước vọng.",
+    "title": "Thiết kế không gian như viết 1 câu chuyện sống",
+    "intro": "Hân hạnh được đồng hành trên chặng đường hiện thực hóa ý tưởng của khách hàng.",
     "slides": [
       {
         "label": "01 / Câu chuyện",
-        "title": "Chúng tôi dịch những mong muốn vô hình thành trải nghiệm không gian có thể chạm tới.",
-        "body": "Kiến trúc sư đóng vai trò như những dịch giả, biến các ước vọng tưởng chừng mơ hồ thành một không gian sống đích thực và có bản sắc riêng.",
-        "image": "assets/projects/01-tt-villa.svg",
+        "title": "Mọi ý tưởng đều bắt nguồn từ những lần chuyện phiếm",
+        "body": "Kiến trúc sư đóng vai trò như những dịch giả, biến những ý tưởng tưởng chừng mơ hồ thành một không gian sống đích thực và có bản sắc riêng.",
+        "image": "PROJECTS/TouchHome/ExC_03.1.png",
         "link": "#projects",
         "mobile": {
           "label": "01 / Câu chuyện",
-          "title": "Chúng tôi dịch những mong muốn vô hình thành trải nghiệm không gian có thể chạm tới.",
-          "body": "Kiến trúc sư đóng vai trò như những dịch giả, biến các ước vọng tưởng chừng mơ hồ thành một không gian sống đích thực và có bản sắc riêng.",
-          "image": "assets/projects/01-tt-villa.svg",
+          "title": "Câu chuyện và tâm tình.",
+          "body": "Chúng tôi nắm bắt tâm tư từ những tâm sự nhỏ nhất",
+          "image": "PROJECTS/TouchHome/ExC_03.1.png",
           "link": "#projects"
         }
       },
       {
         "label": "02 / Lắng nghe",
-        "title": "Mỗi dự án bắt đầu bằng việc lắng nghe, quan sát và đặt đúng câu hỏi.",
-        "body": "Chúng tôi tôn trọng, trân quý và luôn lắng nghe khách hàng một cách chân thành để mỗi công trình trở thành một chặng đường đáng nhớ.",
+        "title": "Chúng tôi đề cao sự lắng nghe và tháu cảm",
+        "body": "Thay vì mải luyên thuyên về ý đồ thiết kế và cái tôi của nhà thiết kế, việc đồng cảm, lắng nghe và truyền cảm hứng sẽ tạo nên tuyệt tác.",
         "image": "assets/projects/02-thu-dieu.svg",
         "link": "#contact",
         "mobile": {
           "label": "02 / Lắng nghe",
-          "title": "Mỗi dự án bắt đầu bằng việc lắng nghe, quan sát và đặt đúng câu hỏi.",
-          "body": "Chúng tôi tôn trọng, trân quý và luôn lắng nghe khách hàng một cách chân thành để mỗi công trình trở thành một chặng đường đáng nhớ.",
-          "image": "assets/projects/02-thu-dieu.svg",
+          "title": "Lắng nghe và thấu cảm",
+          "body": "Chúng tôi ít nói như 1 cái tôi riêng của thiết kế, chúng tôi lắng nghe và đồng hành trên những thấu cảm.",
+          "image": "PROJECTS/Lavender/C6.jpg",
           "link": "#contact"
         }
       },
       {
         "label": "03 / Đồng hành",
-        "title": "Thiết kế được phát triển xuyên suốt từ ý tưởng đến quá trình hiện thực hóa.",
-        "body": "Studio đồng hành ở các mảng kiến trúc, nội thất, visualization và quản lý triển khai để tinh thần thiết kế được giữ nhất quán.",
+        "title": "Từng bước hiện thực hóa đều được đồng thành và chuẩn hóa",
+        "body": "Đội ngũ trẻ trung, chuyên nghiệp và có chuyên môn cao, biến mọi câu chuyện và ý tưởng trở nên chân thật trong từng hình khối",
         "image": "assets/projects/03-tvt-home.svg",
         "link": "#service",
         "mobile": {
           "label": "03 / Đồng hành",
-          "title": "Thiết kế được phát triển xuyên suốt từ ý tưởng đến quá trình hiện thực hóa.",
-          "body": "Studio đồng hành ở các mảng kiến trúc, nội thất, visualization và quản lý triển khai để tinh thần thiết kế được giữ nhất quán.",
-          "image": "assets/projects/03-tvt-home.svg",
+          "title": "Đồng hành tạo nên những giá trị đích thực",
+          "body": "Chúng tôi có nhiều hơn 1 sự lựa chọn để đồng hành cùng khách hàng.",
+          "image": "PROJECTS/TN_Cottage/TN_ExC_03.jpg",
           "link": "#service"
         }
       }
     ],
     "mobile": {
       "eyebrow": "About Us",
-      "title": "Những câu chuyện được kể bằng không gian.",
-      "intro": "Mỗi công trình bắt đầu từ con người, thói quen và những ước vọng sống thật."
+      "title": "Thiết kế không gian như viết 1 câu chuyện sống",
+      "intro": "Hân hạnh được đồng hành trên chặng đường hiện thực hóa ý tưởng của khách hàng."
     }
   },
   "projectsSection": {
@@ -156,105 +161,71 @@ window.DREAMESE_DEFAULT_CONFIG = {
   },
   "projects": [
     {
-      "chapter": "01",
-      "title": "T&T Villa",
-      "subtitle": "Sự tương phản trong ánh nhìn",
-      "category": "Biệt thự",
-      "image": "assets/projects/01-tt-villa.svg",
-      "description": "Một cấu trúc sống được tổ chức bằng tương phản sáng — tối, đặc — rỗng và những khoảng chuyển tiếp mềm mại.",
+      "chapter": "11",
+      "title": "Rustania Homes",
+      "subtitle": "Mô tả ngắn",
+      "category": "Loại dự án",
+      "image": "PROJECTS/RUSTANIA/A_ExC_008.1.png",
+      "description": "Nội dung giới thiệu dự án.",
       "href": "#",
       "mobile": {
-        "title": "T&T Villa",
-        "subtitle": "Sự tương phản trong ánh nhìn",
-        "category": "Biệt thự",
-        "image": "assets/projects/01-tt-villa.svg",
-        "description": "Một cấu trúc sống được tổ chức bằng tương phản sáng — tối, đặc — rỗng và những khoảng chuyển tiếp mềm mại.",
+        "title": "Rustania Homes",
+        "subtitle": "Mô tả ngắn",
+        "category": "Loại dự án",
+        "image": "PROJECTS/RUSTANIA/A_ExC_008.1.png",
+        "description": "Nội dung giới thiệu dự án.",
         "href": "#"
       }
     },
     {
-      "chapter": "02",
-      "title": "Thu Điếu",
-      "subtitle": "Nốt nhạc tĩnh của thanh âm",
-      "category": "Biệt thự",
-      "image": "assets/projects/02-thu-dieu.svg",
-      "description": "Không gian hướng đến sự tĩnh tại, nơi ánh sáng tự nhiên, mặt nước và các lớp vật liệu tạo nên nhịp điệu chậm.",
+      "chapter": "10",
+      "title": "Squid Villa",
+      "subtitle": "Mô tả ngắn",
+      "category": "Loại dự án",
+      "image": "PROJECTS/SquidVilla/Squid (1).jpg",
+      "description": "Nội dung giới thiệu dự án.",
       "href": "#",
       "mobile": {
-        "title": "Thu Điếu",
-        "subtitle": "Nốt nhạc tĩnh của thanh âm",
-        "category": "Biệt thự",
-        "image": "assets/projects/02-thu-dieu.svg",
-        "description": "Không gian hướng đến sự tĩnh tại, nơi ánh sáng tự nhiên, mặt nước và các lớp vật liệu tạo nên nhịp điệu chậm.",
+        "title": "Squid Villa",
+        "subtitle": "Mô tả ngắn",
+        "category": "Loại dự án",
+        "image": "PROJECTS/SquidVilla/Squid (1).jpg",
+        "description": "Nội dung giới thiệu dự án.",
         "href": "#"
       }
     },
     {
-      "chapter": "03",
-      "title": "TVT Home",
-      "subtitle": "Trỗi dậy và bứt phá",
-      "category": "Nhà phố",
-      "image": "assets/projects/03-tvt-home.svg",
-      "description": "Một ngôi nhà đô thị với những khoảng mở có chủ đích, kết nối nhiều tầng sinh hoạt trong một hình khối cô đọng.",
+      "chapter": "09",
+      "title": "Phú Cường Villa",
+      "subtitle": "Mô tả ngắn",
+      "category": "Loại dự án",
+      "image": "PROJECTS/SimplePC/Ext_006.1.png",
+      "description": "Nội dung giới thiệu dự án.",
       "href": "#",
       "mobile": {
-        "title": "TVT Home",
-        "subtitle": "Trỗi dậy và bứt phá",
-        "category": "Nhà phố",
-        "image": "assets/projects/03-tvt-home.svg",
-        "description": "Một ngôi nhà đô thị với những khoảng mở có chủ đích, kết nối nhiều tầng sinh hoạt trong một hình khối cô đọng.",
-        "href": "#"
-      }
-    },
-    {
-      "chapter": "04",
-      "title": "Breath Villa",
-      "subtitle": "Lắng nghe những nhịp chậm",
-      "category": "Biệt thự",
-      "image": "assets/projects/04-breath-villa.svg",
-      "description": "Các khoảng thở, sân trong và lớp cây xanh được đan xen để đưa khí trời len sâu vào đời sống hằng ngày.",
-      "href": "#",
-      "mobile": {
-        "title": "Breath Villa",
-        "subtitle": "Lắng nghe những nhịp chậm",
-        "category": "Biệt thự",
-        "image": "assets/projects/04-breath-villa.svg",
-        "description": "Các khoảng thở, sân trong và lớp cây xanh được đan xen để đưa khí trời len sâu vào đời sống hằng ngày.",
-        "href": "#"
-      }
-    },
-    {
-      "chapter": "05",
-      "title": "Cù Lao Villa",
-      "subtitle": "Theo luồng cảm xúc",
-      "category": "Biệt thự",
-      "image": "assets/projects/05-cu-lao-villa.svg",
-      "description": "Hành trình không gian được mở theo từng lớp cảnh quan, từ vùng đệm riêng tư đến những khoảng sinh hoạt rộng mở.",
-      "href": "#",
-      "mobile": {
-        "title": "Cù Lao Villa",
-        "subtitle": "Theo luồng cảm xúc",
-        "category": "Biệt thự",
-        "image": "assets/projects/05-cu-lao-villa.svg",
-        "description": "Hành trình không gian được mở theo từng lớp cảnh quan, từ vùng đệm riêng tư đến những khoảng sinh hoạt rộng mở.",
+        "title": "Phú Cường Villa",
+        "subtitle": "Mô tả ngắn",
+        "category": "Loại dự án",
+        "image": "PROJECTS/SimplePC/Ext_006.1.png",
+        "description": "Nội dung giới thiệu dự án.",
         "href": "#"
       }
     },
     {
       "chapter": "06",
-      "title": "Nhuận Home",
-      "subtitle": "Về nhà",
+      "title": "T&T Villa",
+      "subtitle": "Sự tương phản trong ánh nhìn",
       "category": "Biệt thự",
-      "image": "assets/projects/06-nhuan-home.svg",
-      "description": "Một tổ ấm gần gũi, cân bằng giữa công năng, cảm giác thân thuộc và sự tinh giản của kiến trúc đương đại.",
-      "href": "#",
+      "image": "PROJECTS/TT_Villa/ExC_02.1.jpg",
+      "description": "Một cấu trúc sống được tổ chức bằng tương phản sáng — tối, đặc — rỗng và những khoảng chuyển tiếp mềm mại.",
+      "href": "https://dreamese.github.io/dreamesestudio/TT_Villa.html",
       "mobile": {
-        "title": "Nhuận Home",
-        "subtitle": "Về nhà",
+        "title": "T&T Villa",
+        "subtitle": "Sự tương phản trong ánh nhìn",
         "category": "Biệt thự",
-        "image": "assets/projects/06-nhuan-home.svg",
-        "description": "Một tổ ấm gần gũi, cân bằng giữa công năng, cảm giác thân thuộc và sự tinh giản của kiến trúc đương đại.",
-        "href": "#"
+        "image": "PROJECTS/TT_Villa/ExC_02.1.jpg",
+        "description": "Một cấu trúc sống được tổ chức bằng tương phản sáng — tối, đặc — rỗng và những khoảng chuyển tiếp mềm mại.",
+        "href": "https://dreamese.github.io/dreamesestudio/TT_Villa.html"
       }
     },
     {
@@ -262,14 +233,14 @@ window.DREAMESE_DEFAULT_CONFIG = {
       "title": "Touch House",
       "subtitle": "Điểm chạm của không gian",
       "category": "Nhà ở",
-      "image": "assets/projects/07-touch-house.svg",
+      "image": "PROJECTS/TouchHome/ExC_02.1.png",
       "description": "Vật liệu, ánh sáng và chuyển động giao nhau tại những điểm chạm nhỏ, tạo nên trải nghiệm sống giàu cảm giác.",
       "href": "#",
       "mobile": {
         "title": "Touch House",
         "subtitle": "Điểm chạm của không gian",
         "category": "Nhà ở",
-        "image": "assets/projects/07-touch-house.svg",
+        "image": "PROJECTS/TouchHome/ExC_02.1.png",
         "description": "Vật liệu, ánh sáng và chuyển động giao nhau tại những điểm chạm nhỏ, tạo nên trải nghiệm sống giàu cảm giác.",
         "href": "#"
       }
@@ -279,34 +250,119 @@ window.DREAMESE_DEFAULT_CONFIG = {
       "title": "Lavender Restaurant",
       "subtitle": "Giá trị chuyển biến",
       "category": "Nhà hàng",
-      "image": "assets/projects/08-lavender.svg",
+      "image": "PROJECTS/Lavender/C8.jpg",
       "description": "Không gian ẩm thực được xây dựng như một chuỗi chuyển cảnh, linh hoạt giữa tính riêng tư và bầu không khí cộng đồng.",
-      "href": "#",
+      "href": "https://dreamese.github.io/dreamesestudio/Lavender.html",
       "mobile": {
         "title": "Lavender Restaurant",
         "subtitle": "Giá trị chuyển biến",
         "category": "Nhà hàng",
-        "image": "assets/projects/08-lavender.svg",
+        "image": "PROJECTS/Lavender/C8.jpg",
         "description": "Không gian ẩm thực được xây dựng như một chuỗi chuyển cảnh, linh hoạt giữa tính riêng tư và bầu không khí cộng đồng.",
+        "href": "https://dreamese.github.io/dreamesestudio/Lavender.html"
+      }
+    },
+    {
+      "chapter": "05",
+      "title": "Nhuận Home",
+      "subtitle": "Về nhà",
+      "category": "Biệt thự",
+      "image": "PROJECTS/PN1/PN1_ExC_09.1.png",
+      "description": "Một tổ ấm gần gũi, cân bằng giữa công năng, cảm giác thân thuộc và sự tinh giản của kiến trúc đương đại.",
+      "href": "#",
+      "mobile": {
+        "title": "Nhuận Home",
+        "subtitle": "Về nhà",
+        "category": "Biệt thự",
+        "image": "PROJECTS/PN1/PN1_ExC_09.1.png",
+        "description": "Một tổ ấm gần gũi, cân bằng giữa công năng, cảm giác thân thuộc và sự tinh giản của kiến trúc đương đại.",
+        "href": "#"
+      }
+    },
+    {
+      "chapter": "04",
+      "title": "Cù Lao Villa",
+      "subtitle": "Theo luồng cảm xúc",
+      "category": "Biệt thự",
+      "image": "PROJECTS/TranPhuong_Villa/TP-Villa_ExC_02.1.png",
+      "description": "Hành trình không gian được mở theo từng lớp cảnh quan, từ vùng đệm riêng tư đến những khoảng sinh hoạt rộng mở.",
+      "href": "#",
+      "mobile": {
+        "title": "Cù Lao Villa",
+        "subtitle": "Theo luồng cảm xúc",
+        "category": "Biệt thự",
+        "image": "PROJECTS/TranPhuong_Villa/TP-Villa_ExC_02.1.png",
+        "description": "Hành trình không gian được mở theo từng lớp cảnh quan, từ vùng đệm riêng tư đến những khoảng sinh hoạt rộng mở.",
+        "href": "#"
+      }
+    },
+    {
+      "chapter": "03",
+      "title": "Breath Villa",
+      "subtitle": "Lắng nghe những nhịp chậm",
+      "category": "Biệt thự",
+      "image": "PROJECTS/Chateur_QL_Villa/Chateur_ExC_02.jpg",
+      "description": "Các khoảng thở, sân trong và lớp cây xanh được đan xen để đưa khí trời len sâu vào đời sống hằng ngày.",
+      "href": "#",
+      "mobile": {
+        "title": "Breath Villa",
+        "subtitle": "Lắng nghe những nhịp chậm",
+        "category": "Biệt thự",
+        "image": "PROJECTS/Chateur_QL_Villa/Chateur_ExC_02.jpg",
+        "description": "Các khoảng thở, sân trong và lớp cây xanh được đan xen để đưa khí trời len sâu vào đời sống hằng ngày.",
+        "href": "#"
+      }
+    },
+    {
+      "chapter": "02",
+      "title": "TVT Home",
+      "subtitle": "Trỗi dậy và bứt phá",
+      "category": "Nhà phố",
+      "image": "PROJECTS/TVT_House/F1.jpg",
+      "description": "Một ngôi nhà đô thị với những khoảng mở có chủ đích, kết nối nhiều tầng sinh hoạt trong một hình khối cô đọng.",
+      "href": "#",
+      "mobile": {
+        "title": "TVT Home",
+        "subtitle": "Trỗi dậy và bứt phá",
+        "category": "Nhà phố",
+        "image": "PROJECTS/TVT_House/F1.jpg",
+        "description": "Một ngôi nhà đô thị với những khoảng mở có chủ đích, kết nối nhiều tầng sinh hoạt trong một hình khối cô đọng.",
+        "href": "#"
+      }
+    },
+    {
+      "chapter": "01",
+      "title": "Thu Điếu",
+      "subtitle": "Nốt nhạc tĩnh của thanh âm",
+      "category": "Biệt thự",
+      "image": "PROJECTS/Thu_Dieu/ExC_01.2.jpg",
+      "description": "Không gian hướng đến sự tĩnh tại, nơi ánh sáng tự nhiên, mặt nước và các lớp vật liệu tạo nên nhịp điệu chậm.",
+      "href": "#",
+      "mobile": {
+        "title": "Thu Điếu",
+        "subtitle": "Nốt nhạc tĩnh của thanh âm",
+        "category": "Biệt thự",
+        "image": "PROJECTS/Thu_Dieu/ExC_01.2.jpg",
+        "description": "Không gian hướng đến sự tĩnh tại, nơi ánh sáng tự nhiên, mặt nước và các lớp vật liệu tạo nên nhịp điệu chậm.",
         "href": "#"
       }
     }
   ],
   "service": {
     "eyebrow": "Service",
-    "title": "Dịch vụ được tổ chức theo những mức độ đồng hành khác nhau.",
+    "title": "Nhiều hơn 1 sự đồng hành",
     "items": [
       {
         "number": "01",
         "name": "Thiết kế — Thi công trọn gói",
         "summary": "Đồng bộ từ thẩm mỹ thiết kế, kỹ thuật thi công và chịu trách nhiệm trên toàn bộ ngân sách xây dựng.",
-        "image": "assets/projects/01-tt-villa.svg",
+        "image": "",
         "href": "https://dreamese.github.io/dreamesestudio/Qtr_TKTC.html",
         "linkLabel": "Quy trình triển khai →",
         "mobile": {
           "name": "Thiết kế — Thi công trọn gói",
           "summary": "Đồng bộ từ thẩm mỹ thiết kế, kỹ thuật thi công và chịu trách nhiệm trên toàn bộ ngân sách xây dựng.",
-          "image": "assets/projects/01-tt-villa.svg",
+          "image": "",
           "href": "https://dreamese.github.io/dreamesestudio/Qtr_TKTC.html",
           "linkLabel": "Quy trình triển khai →"
         }
@@ -315,13 +371,13 @@ window.DREAMESE_DEFAULT_CONFIG = {
         "number": "02",
         "name": "Thiết kế — Quản lý Dự án",
         "summary": "Đảm bảo và kiểm soát tính nhất quán từ bản vẽ thiết kế, hồ sơ kỹ thuật đến công tác triển khai thi công.",
-        "image": "assets/projects/02-thu-dieu.svg",
+        "image": "",
         "href": "https://dreamese.github.io/dreamesestudio/Qtr_QLDA.html",
         "linkLabel": "Quy trình triển khai →",
         "mobile": {
           "name": "Thiết kế — Quản lý Dự án",
           "summary": "Đảm bảo và kiểm soát tính nhất quán từ bản vẽ thiết kế, hồ sơ kỹ thuật đến công tác triển khai thi công.",
-          "image": "assets/projects/02-thu-dieu.svg",
+          "image": "",
           "href": "https://dreamese.github.io/dreamesestudio/Qtr_QLDA.html",
           "linkLabel": "Quy trình triển khai →"
         }
@@ -330,13 +386,13 @@ window.DREAMESE_DEFAULT_CONFIG = {
         "number": "03",
         "name": "Thiết kế Kiến trúc",
         "summary": "Tối ưu không gian sử dụng, thẩm mỹ hình khối và xây dựng bản sắc riêng cho câu chuyện của công trình.",
-        "image": "assets/projects/03-tvt-home.svg",
+        "image": "",
         "href": "https://dreamese.github.io/dreamesestudio/Qtr_TKKT.html",
         "linkLabel": "Quy trình triển khai →",
         "mobile": {
           "name": "Thiết kế Kiến trúc",
           "summary": "Tối ưu không gian sử dụng, thẩm mỹ hình khối và xây dựng bản sắc riêng cho câu chuyện của công trình.",
-          "image": "assets/projects/03-tvt-home.svg",
+          "image": "",
           "href": "https://dreamese.github.io/dreamesestudio/Qtr_TKKT.html",
           "linkLabel": "Quy trình triển khai →"
         }
@@ -345,13 +401,13 @@ window.DREAMESE_DEFAULT_CONFIG = {
         "number": "04",
         "name": "Thiết kế Nội thất",
         "summary": "Đồng bộ vật liệu và chi phí tối ưu với chất lượng phù hợp nhất, hướng đến lối sống cá nhân hóa.",
-        "image": "assets/projects/08-lavender.svg",
+        "image": "",
         "href": "https://dreamese.github.io/dreamesestudio/Qtr_TKNT.html",
         "linkLabel": "Quy trình triển khai →",
         "mobile": {
           "name": "Thiết kế Nội thất",
           "summary": "Đồng bộ vật liệu và chi phí tối ưu với chất lượng phù hợp nhất, hướng đến lối sống cá nhân hóa.",
-          "image": "assets/projects/08-lavender.svg",
+          "image": "",
           "href": "https://dreamese.github.io/dreamesestudio/Qtr_TKNT.html",
           "linkLabel": "Quy trình triển khai →"
         }
@@ -359,162 +415,708 @@ window.DREAMESE_DEFAULT_CONFIG = {
     ],
     "mobile": {
       "eyebrow": "Service",
-      "title": "Bốn lựa chọn đồng hành cùng Dreamese."
+      "title": "Nhiều hơn 1 sự đồng hành"
     }
   },
   "media": {
     "eyebrow": "Blog",
-    "title": "Các video ngắn, góc nhìn công trình và những câu chuyện hậu trường.",
+    "title": "Những câu chuyện từ Dreamese Studio",
     "items": [
       {
-        "title": "TikTok Video 01",
-        "label": "@quoclinh258 / Social / Blog",
-        "image": "assets/projects/01-tt-villa.svg",
-        "description": "Video TikTok được gắn thử trực tiếp vào popup Blog. Nhấn OPEN VIDEO để mở video gốc.",
-        "url": "https://www.tiktok.com/@quoclinh258/video/7666387664395963655",
+        "title": "Câu chuyện ảnh 01",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7707139553760414983",
         "mobile": {
-          "title": "TikTok Video 01",
-          "label": "@quoclinh258 / Social / Blog",
-          "image": "assets/projects/01-tt-villa.svg",
-          "description": "Video TikTok được gắn thử trực tiếp vào popup Blog. Nhấn OPEN VIDEO để mở video gốc.",
-          "url": "https://www.tiktok.com/@quoclinh258/video/7666387664395963655"
+          "title": "Câu chuyện ảnh 01",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7707139553760414983"
         }
       },
       {
-        "title": "TikTok Video 02",
-        "label": "@quoclinh258 / Social / Blog",
-        "image": "assets/projects/02-thu-dieu.svg",
-        "description": "Video TikTok được gắn thử trực tiếp vào popup Blog. Nhấn OPEN VIDEO để mở video gốc.",
-        "url": "https://www.tiktok.com/@quoclinh258/video/7609638041191238919",
+        "title": "Câu chuyện ảnh 02",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7703903866420497672",
         "mobile": {
-          "title": "TikTok Video 02",
-          "label": "@quoclinh258 / Social / Blog",
-          "image": "assets/projects/02-thu-dieu.svg",
-          "description": "Video TikTok được gắn thử trực tiếp vào popup Blog. Nhấn OPEN VIDEO để mở video gốc.",
-          "url": "https://www.tiktok.com/@quoclinh258/video/7609638041191238919"
+          "title": "Câu chuyện ảnh 02",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7703903866420497672"
         }
       },
       {
-        "title": "TikTok Video 03",
-        "label": "@quoclinh258 / Social / Blog",
-        "image": "assets/projects/03-tvt-home.svg",
-        "description": "Video TikTok được gắn thử trực tiếp vào popup Blog. Nhấn OPEN VIDEO để mở video gốc.",
-        "url": "https://www.tiktok.com/@quoclinh258/video/7657872311017688327",
+        "title": "Video 03",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/video/7703138660119612679",
         "mobile": {
-          "title": "TikTok Video 03",
-          "label": "@quoclinh258 / Social / Blog",
-          "image": "assets/projects/03-tvt-home.svg",
-          "description": "Video TikTok được gắn thử trực tiếp vào popup Blog. Nhấn OPEN VIDEO để mở video gốc.",
-          "url": "https://www.tiktok.com/@quoclinh258/video/7657872311017688327"
+          "title": "Video 03",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/video/7703138660119612679"
         }
       },
       {
-        "title": "TikTok Video 04",
-        "label": "@quoclinh258 / Social / Blog",
-        "image": "assets/projects/04-breath-villa.svg",
-        "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
-        "url": "https://www.tiktok.com/@quoclinh258",
+        "title": "Câu chuyện ảnh 04",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7702285728079760647",
         "mobile": {
-          "title": "TikTok Video 04",
-          "label": "@quoclinh258 / Social / Blog",
-          "image": "assets/projects/04-breath-villa.svg",
-          "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
-          "url": "https://www.tiktok.com/@quoclinh258"
+          "title": "Câu chuyện ảnh 04",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7702285728079760647"
         }
       },
       {
-        "title": "TikTok Video 05",
-        "label": "@quoclinh258 / Social / Blog",
-        "image": "assets/projects/05-cu-lao-villa.svg",
-        "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
-        "url": "https://www.tiktok.com/@quoclinh258",
+        "title": "Câu chuyện ảnh 05",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7701525283630746887",
         "mobile": {
-          "title": "TikTok Video 05",
-          "label": "@quoclinh258 / Social / Blog",
-          "image": "assets/projects/05-cu-lao-villa.svg",
-          "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
-          "url": "https://www.tiktok.com/@quoclinh258"
+          "title": "Câu chuyện ảnh 05",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7701525283630746887"
         }
       },
       {
-        "title": "TikTok Video 06",
-        "label": "@quoclinh258 / Social / Blog",
-        "image": "assets/projects/06-nhuan-home.svg",
-        "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
-        "url": "https://www.tiktok.com/@quoclinh258",
+        "title": "Câu chuyện ảnh 06",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7700561230259342600",
         "mobile": {
-          "title": "TikTok Video 06",
-          "label": "@quoclinh258 / Social / Blog",
-          "image": "assets/projects/06-nhuan-home.svg",
-          "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
-          "url": "https://www.tiktok.com/@quoclinh258"
+          "title": "Câu chuyện ảnh 06",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7700561230259342600"
         }
       },
       {
-        "title": "TikTok Video 07",
-        "label": "@quoclinh258 / Social / Blog",
-        "image": "assets/projects/07-touch-house.svg",
-        "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
-        "url": "https://www.tiktok.com/@quoclinh258",
+        "title": "Câu chuyện ảnh 07",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7699744184265182471",
         "mobile": {
-          "title": "TikTok Video 07",
-          "label": "@quoclinh258 / Social / Blog",
-          "image": "assets/projects/07-touch-house.svg",
-          "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
-          "url": "https://www.tiktok.com/@quoclinh258"
+          "title": "Câu chuyện ảnh 07",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7699744184265182471"
         }
       },
       {
-        "title": "TikTok Video 08",
-        "label": "@quoclinh258 / Social / Blog",
-        "image": "assets/projects/08-lavender.svg",
-        "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
-        "url": "https://www.tiktok.com/@quoclinh258",
+        "title": "Câu chuyện ảnh 08",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7698742242219117832",
         "mobile": {
-          "title": "TikTok Video 08",
-          "label": "@quoclinh258 / Social / Blog",
-          "image": "assets/projects/08-lavender.svg",
-          "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
-          "url": "https://www.tiktok.com/@quoclinh258"
+          "title": "Câu chuyện ảnh 08",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7698742242219117832"
         }
       },
       {
-        "title": "TikTok Video 09",
-        "label": "@quoclinh258 / Social / Blog",
-        "image": "assets/projects/02-thu-dieu.svg",
-        "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
-        "url": "https://www.tiktok.com/@quoclinh258",
+        "title": "Câu chuyện ảnh 09",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7697939356778073351",
         "mobile": {
-          "title": "TikTok Video 09",
-          "label": "@quoclinh258 / Social / Blog",
-          "image": "assets/projects/02-thu-dieu.svg",
-          "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
-          "url": "https://www.tiktok.com/@quoclinh258"
+          "title": "Câu chuyện ảnh 09",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7697939356778073351"
         }
       },
       {
-        "title": "TikTok Video 10",
-        "label": "@quoclinh258 / Social / Blog",
-        "image": "assets/projects/03-tvt-home.svg",
-        "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
-        "url": "https://www.tiktok.com/@quoclinh258",
+        "title": "Video 10",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/video/7697452396976295186",
         "mobile": {
-          "title": "TikTok Video 10",
-          "label": "@quoclinh258 / Social / Blog",
-          "image": "assets/projects/03-tvt-home.svg",
-          "description": "Video mạng xã hội của Dreamese Studio. Thay ảnh bìa và đường dẫn trong ứng dụng quản trị.",
-          "url": "https://www.tiktok.com/@quoclinh258"
+          "title": "Video 10",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/video/7697452396976295186"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 11",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7697267746211368193",
+        "mobile": {
+          "title": "Câu chuyện ảnh 11",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7697267746211368193"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 12",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7696693480797588743",
+        "mobile": {
+          "title": "Câu chuyện ảnh 12",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7696693480797588743"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 13",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7695739650320747783",
+        "mobile": {
+          "title": "Câu chuyện ảnh 13",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7695739650320747783"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 14",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7695036323878456594",
+        "mobile": {
+          "title": "Câu chuyện ảnh 14",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7695036323878456594"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 15",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7694678069801569544",
+        "mobile": {
+          "title": "Câu chuyện ảnh 15",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7694678069801569544"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 16",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7694306753592298770",
+        "mobile": {
+          "title": "Câu chuyện ảnh 16",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7694306753592298770"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 17",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7693923313617341714",
+        "mobile": {
+          "title": "Câu chuyện ảnh 17",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7693923313617341714"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 18",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7693482254172982546",
+        "mobile": {
+          "title": "Câu chuyện ảnh 18",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7693482254172982546"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 19",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7693164518737710354",
+        "mobile": {
+          "title": "Câu chuyện ảnh 19",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7693164518737710354"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 20",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7692804899221884178",
+        "mobile": {
+          "title": "Câu chuyện ảnh 20",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7692804899221884178"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 21",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7692751852357668103",
+        "mobile": {
+          "title": "Câu chuyện ảnh 21",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7692751852357668103"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 22",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7692450186597240071",
+        "mobile": {
+          "title": "Câu chuyện ảnh 22",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7692450186597240071"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 23",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7692057274348621064",
+        "mobile": {
+          "title": "Câu chuyện ảnh 23",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7692057274348621064"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 24",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7691697357456624903",
+        "mobile": {
+          "title": "Câu chuyện ảnh 24",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7691697357456624903"
+        }
+      },
+      {
+        "title": "Video 25",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/video/7691684565080902919",
+        "mobile": {
+          "title": "Video 25",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/video/7691684565080902919"
+        }
+      },
+      {
+        "title": "Video 26",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/video/7691334014761815303",
+        "mobile": {
+          "title": "Video 26",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/video/7691334014761815303"
+        }
+      },
+      {
+        "title": "Video 27",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/video/7691280236058610952",
+        "mobile": {
+          "title": "Video 27",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/video/7691280236058610952"
+        }
+      },
+      {
+        "title": "Video 28",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/video/7690959987027217672",
+        "mobile": {
+          "title": "Video 28",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/video/7690959987027217672"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 29",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7690582050629225736",
+        "mobile": {
+          "title": "Câu chuyện ảnh 29",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7690582050629225736"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 30",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7690199157423852808",
+        "mobile": {
+          "title": "Câu chuyện ảnh 30",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7690199157423852808"
+        }
+      },
+      {
+        "title": "Video 31",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/video/7690056633199774994",
+        "mobile": {
+          "title": "Video 31",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/video/7690056633199774994"
+        }
+      },
+      {
+        "title": "Video 32",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/video/7690044365934251272",
+        "mobile": {
+          "title": "Video 32",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/video/7690044365934251272"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 33",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7689824338341629191",
+        "mobile": {
+          "title": "Câu chuyện ảnh 33",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7689824338341629191"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 34",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7689455496918551816",
+        "mobile": {
+          "title": "Câu chuyện ảnh 34",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7689455496918551816"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 35",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7688710079289330951",
+        "mobile": {
+          "title": "Câu chuyện ảnh 35",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7688710079289330951"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 36",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7688338444376018183",
+        "mobile": {
+          "title": "Câu chuyện ảnh 36",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7688338444376018183"
+        }
+      },
+      {
+        "title": "Video 37",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/video/7687957751451946248",
+        "mobile": {
+          "title": "Video 37",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/video/7687957751451946248"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 38",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7687527758334921992",
+        "mobile": {
+          "title": "Câu chuyện ảnh 38",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7687527758334921992"
+        }
+      },
+      {
+        "title": "Video 39",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/video/7687513124391406855",
+        "mobile": {
+          "title": "Video 39",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/video/7687513124391406855"
+        }
+      },
+      {
+        "title": "Video 40",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/video/7687205999777746183",
+        "mobile": {
+          "title": "Video 40",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/video/7687205999777746183"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 41",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7686860817890905362",
+        "mobile": {
+          "title": "Câu chuyện ảnh 41",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7686860817890905362"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 42",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7686489114295749906",
+        "mobile": {
+          "title": "Câu chuyện ảnh 42",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7686489114295749906"
+        }
+      },
+      {
+        "title": "Video 43",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/video/7686173792032345362",
+        "mobile": {
+          "title": "Video 43",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/video/7686173792032345362"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 44",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7685903483538820359",
+        "mobile": {
+          "title": "Câu chuyện ảnh 44",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7685903483538820359"
+        }
+      },
+      {
+        "title": "Video 45",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/video/7685406140208925959",
+        "mobile": {
+          "title": "Video 45",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/video/7685406140208925959"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 46",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7684997803977788690",
+        "mobile": {
+          "title": "Câu chuyện ảnh 46",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7684997803977788690"
+        }
+      },
+      {
+        "title": "Video 47",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/video/7684994313771601160",
+        "mobile": {
+          "title": "Video 47",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/video/7684994313771601160"
+        }
+      },
+      {
+        "title": "Video 48",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/video/7684643634364321032",
+        "mobile": {
+          "title": "Video 48",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/video/7684643634364321032"
+        }
+      },
+      {
+        "title": "Câu chuyện ảnh 49",
+        "label": "@dreamese.studio",
+        "image": "",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "url": "https://www.tiktok.com/@dreamese.studio/photo/7684307945143733511",
+        "mobile": {
+          "title": "Câu chuyện ảnh 49",
+          "label": "@dreamese.studio",
+          "image": "",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "url": "https://www.tiktok.com/@dreamese.studio/photo/7684307945143733511"
         }
       }
     ],
     "mobile": {
       "eyebrow": "Blog",
-      "title": "Video, công trình và hậu trường."
+      "title": "Những câu chuyện từ Dreamese Studio"
     }
   },
   "news": {
     "eyebrow": "News",
-    "title": "Những câu chuyện, cập nhật và góc nhìn mới từ Dreamese Studio.",
+    "title": "Cập nhật tin tức cho ngành xây dựng",
     "items": [
       {
         "number": "01",
@@ -591,11 +1193,144 @@ window.DREAMESE_DEFAULT_CONFIG = {
           "category": "Practice",
           "date": "10.07.2026"
         }
+      },
+      {
+        "number": "00",
+        "date": "31.07.2026",
+        "category": "News",
+        "title": "Tiêu đề tin tức mới",
+        "subtitle": "Tiêu đề phụ",
+        "description": "Nội dung chi tiết của bài viết.",
+        "image": "assets/projects/01-tt-villa.svg",
+        "href": "#contact",
+        "mobile": {
+          "date": "31.07.2026",
+          "category": "News",
+          "title": "Tiêu đề tin tức mới",
+          "subtitle": "Tiêu đề phụ",
+          "description": "Nội dung chi tiết của bài viết.",
+          "image": "assets/projects/01-tt-villa.svg",
+          "href": "#contact"
+        }
+      },
+      {
+        "number": "00",
+        "date": "31.07.2026",
+        "category": "News",
+        "title": "Tiêu đề tin tức mới",
+        "subtitle": "Tiêu đề phụ",
+        "description": "Nội dung chi tiết của bài viết.",
+        "image": "assets/projects/01-tt-villa.svg",
+        "href": "#contact",
+        "mobile": {
+          "date": "31.07.2026",
+          "category": "News",
+          "title": "Tiêu đề tin tức mới",
+          "subtitle": "Tiêu đề phụ",
+          "description": "Nội dung chi tiết của bài viết.",
+          "image": "assets/projects/01-tt-villa.svg",
+          "href": "#contact"
+        }
+      },
+      {
+        "number": "00",
+        "date": "31.07.2026",
+        "category": "News",
+        "title": "Tiêu đề tin tức mới",
+        "subtitle": "Tiêu đề phụ",
+        "description": "Nội dung chi tiết của bài viết.",
+        "image": "assets/projects/01-tt-villa.svg",
+        "href": "#contact",
+        "mobile": {
+          "date": "31.07.2026",
+          "category": "News",
+          "title": "Tiêu đề tin tức mới",
+          "subtitle": "Tiêu đề phụ",
+          "description": "Nội dung chi tiết của bài viết.",
+          "image": "assets/projects/01-tt-villa.svg",
+          "href": "#contact"
+        }
+      },
+      {
+        "number": "00",
+        "date": "31.07.2026",
+        "category": "News",
+        "title": "Tiêu đề tin tức mới",
+        "subtitle": "Tiêu đề phụ",
+        "description": "Nội dung chi tiết của bài viết.",
+        "image": "assets/projects/01-tt-villa.svg",
+        "href": "#contact",
+        "mobile": {
+          "date": "31.07.2026",
+          "category": "News",
+          "title": "Tiêu đề tin tức mới",
+          "subtitle": "Tiêu đề phụ",
+          "description": "Nội dung chi tiết của bài viết.",
+          "image": "assets/projects/01-tt-villa.svg",
+          "href": "#contact"
+        }
+      },
+      {
+        "number": "00",
+        "date": "31.07.2026",
+        "category": "News",
+        "title": "Tiêu đề tin tức mới",
+        "subtitle": "Tiêu đề phụ",
+        "description": "Nội dung chi tiết của bài viết.",
+        "image": "assets/projects/01-tt-villa.svg",
+        "href": "#contact",
+        "mobile": {
+          "date": "31.07.2026",
+          "category": "News",
+          "title": "Tiêu đề tin tức mới",
+          "subtitle": "Tiêu đề phụ",
+          "description": "Nội dung chi tiết của bài viết.",
+          "image": "assets/projects/01-tt-villa.svg",
+          "href": "#contact"
+        }
+      },
+      {
+        "number": "00",
+        "date": "31.07.2026",
+        "category": "News",
+        "title": "Tiêu đề tin tức mới",
+        "subtitle": "Tiêu đề phụ",
+        "description": "Nội dung chi tiết của bài viết.",
+        "image": "assets/projects/01-tt-villa.svg",
+        "href": "#contact",
+        "mobile": {
+          "date": "31.07.2026",
+          "category": "News",
+          "title": "Tiêu đề tin tức mới",
+          "subtitle": "Tiêu đề phụ",
+          "description": "Nội dung chi tiết của bài viết.",
+          "image": "assets/projects/01-tt-villa.svg",
+          "href": "#contact"
+        }
+      },
+      {
+        "number": "00",
+        "date": "31.07.2026",
+        "category": "News",
+        "title": "Tiêu đề tin tức mới",
+        "subtitle": "Tiêu đề phụ",
+        "description": "Nội dung chi tiết của bài viết.",
+        "image": "assets/projects/01-tt-villa.svg",
+        "href": "#contact",
+        "mobile": {
+          "date": "31.07.2026",
+          "category": "News",
+          "title": "Tiêu đề tin tức mới",
+          "subtitle": "Tiêu đề phụ",
+          "description": "Nội dung chi tiết của bài viết.",
+          "image": "assets/projects/01-tt-villa.svg",
+          "href": "#contact"
+        }
       }
     ],
     "mobile": {
       "eyebrow": "News",
-      "title": "Tin mới từ Dreamese Studio."
+      "title": "Cập nhật tin tức cho ngành xây dựng"
     }
   },
   "contact": {
@@ -607,7 +1342,6 @@ window.DREAMESE_DEFAULT_CONFIG = {
         "title": "Thông tin liên hệ",
         "lines": [
           "Hotline: 09 4363 4758 — KTS. Vương",
-          "Hotline: 0903 888 200 — KS. Toàn",
           "Email: vtv.arc@gmail.com"
         ],
         "image": "",
@@ -617,7 +1351,6 @@ window.DREAMESE_DEFAULT_CONFIG = {
           "title": "Thông tin liên hệ",
           "lines": [
             "Hotline: 09 4363 4758 — KTS. Vương",
-            "Hotline: 0903 888 200 — KS. Toàn",
             "Email: vtv.arc@gmail.com"
           ],
           "image": "",
@@ -650,69 +1383,47 @@ window.DREAMESE_DEFAULT_CONFIG = {
         "type": "maps",
         "title": "Maps",
         "lines": [
-          "Tìm Dreamese Studio trên Google Maps"
+          "Liên hệ Dreamese Studio để được hướng dẫn đến văn phòng."
         ],
-        "image": "assets/projects/05-cu-lao-villa.svg",
-        "link": "https://maps.google.com/",
-        "linkLabel": "Mở Google Maps →",
+        "image": "",
+        "link": "mailto:vtv.arc@gmail.com",
+        "linkLabel": "Hỏi đường đến studio →",
         "mobile": {
           "title": "Maps",
           "lines": [
-            "Tìm Dreamese Studio trên Google Maps"
+            "Liên hệ Dreamese Studio để được hướng dẫn đến văn phòng."
           ],
-          "image": "assets/projects/05-cu-lao-villa.svg",
-          "link": "https://maps.google.com/",
-          "linkLabel": "Mở Google Maps →"
+          "image": "",
+          "link": "mailto:vtv.arc@gmail.com",
+          "linkLabel": "Hỏi đường đến studio →"
         }
       },
       {
         "type": "social",
-        "title": "Social",
+        "title": "Website",
         "lines": [
-          "Instagram",
-          "TikTok",
-          "Facebook"
+          "Dreamese Studio — Kiến trúc & Nội thất"
         ],
-        "image": "assets/projects/07-touch-house.svg",
-        "link": "https://www.tiktok.com/@quoclinh258",
-        "linkLabel": "Theo dõi Dreamese →",
+        "image": "",
+        "link": "https://dreamese.github.io/dreamesestudio/",
+        "linkLabel": "Truy cập website →",
         "mobile": {
-          "title": "Social",
+          "title": "Website",
           "lines": [
-            "Instagram",
-            "TikTok",
-            "Facebook"
+            "Dreamese Studio — Kiến trúc & Nội thất"
           ],
-          "image": "assets/projects/07-touch-house.svg",
-          "link": "https://www.tiktok.com/@quoclinh258",
-          "linkLabel": "Theo dõi Dreamese →"
+          "image": "",
+          "link": "https://dreamese.github.io/dreamesestudio/",
+          "linkLabel": "Truy cập website →"
         },
         "socialLinks": [
           {
-            "platform": "facebook",
-            "label": "Facebook",
-            "url": "",
+            "platform": "website",
+            "label": "Dreamese Studio",
+            "url": "https://dreamese.github.io/dreamesestudio/",
             "mobile": {
-              "label": "Facebook",
-              "url": ""
-            }
-          },
-          {
-            "platform": "instagram",
-            "label": "Instagram",
-            "url": "",
-            "mobile": {
-              "label": "Instagram",
-              "url": ""
-            }
-          },
-          {
-            "platform": "tiktok",
-            "label": "TikTok",
-            "url": "https://www.tiktok.com/@quoclinh258",
-            "mobile": {
-              "label": "TikTok",
-              "url": "https://www.tiktok.com/@quoclinh258"
+              "label": "Dreamese Studio",
+              "url": "https://dreamese.github.io/dreamesestudio/"
             }
           }
         ]
@@ -720,7 +1431,7 @@ window.DREAMESE_DEFAULT_CONFIG = {
     ],
     "mobile": {
       "eyebrow": "Contact",
-      "title": "Liên hệ Dreamese Studio."
+      "title": "Dreamese Studio — Đồng hành kiến tạo không gian sống."
     }
   }
 };
