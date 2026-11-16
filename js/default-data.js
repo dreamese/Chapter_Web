@@ -407,13 +407,13 @@ window.DREAMESE_DEFAULT_CONFIG = {
         "number": "01",
         "name": "Thiết kế — Thi công trọn gói",
         "summary": "Đồng bộ từ thẩm mỹ thiết kế, kỹ thuật thi công và chịu trách nhiệm trên toàn bộ ngân sách xây dựng.",
-        "image": "assets/services/design-build-cartoon.webp",
+        "image": "assets/services/design-build.webp",
         "href": "Qtr_TKTC.html",
         "linkLabel": "Quy trình triển khai →",
         "mobile": {
           "name": "Thiết kế — Thi công trọn gói",
           "summary": "Đồng bộ từ thẩm mỹ thiết kế, kỹ thuật thi công và chịu trách nhiệm trên toàn bộ ngân sách xây dựng.",
-          "image": "assets/services/design-build-cartoon.webp",
+          "image": "assets/services/design-build.webp",
           "href": "Qtr_TKTC.html",
           "linkLabel": "Quy trình triển khai →"
         }
@@ -422,13 +422,13 @@ window.DREAMESE_DEFAULT_CONFIG = {
         "number": "02",
         "name": "Thiết kế — Quản lý Dự án",
         "summary": "Đảm bảo và kiểm soát tính nhất quán từ bản vẽ thiết kế, hồ sơ kỹ thuật đến công tác triển khai thi công.",
-        "image": "assets/services/project-management-cartoon.webp",
+        "image": "assets/services/project-management.webp",
         "href": "Qtr_QLDA.html",
         "linkLabel": "Quy trình triển khai →",
         "mobile": {
           "name": "Thiết kế — Quản lý Dự án",
           "summary": "Đảm bảo và kiểm soát tính nhất quán từ bản vẽ thiết kế, hồ sơ kỹ thuật đến công tác triển khai thi công.",
-          "image": "assets/services/project-management-cartoon.webp",
+          "image": "assets/services/project-management.webp",
           "href": "Qtr_QLDA.html",
           "linkLabel": "Quy trình triển khai →"
         }
@@ -437,13 +437,13 @@ window.DREAMESE_DEFAULT_CONFIG = {
         "number": "03",
         "name": "Thiết kế Kiến trúc",
         "summary": "Tối ưu không gian sử dụng, thẩm mỹ hình khối và xây dựng bản sắc riêng cho câu chuyện của công trình.",
-        "image": "assets/services/architecture-cartoon.webp",
+        "image": "assets/services/architecture.webp",
         "href": "Qtr_TKKT.html",
         "linkLabel": "Quy trình triển khai →",
         "mobile": {
           "name": "Thiết kế Kiến trúc",
           "summary": "Tối ưu không gian sử dụng, thẩm mỹ hình khối và xây dựng bản sắc riêng cho câu chuyện của công trình.",
-          "image": "assets/services/architecture-cartoon.webp",
+          "image": "assets/services/architecture.webp",
           "href": "Qtr_TKKT.html",
           "linkLabel": "Quy trình triển khai →"
         }
@@ -452,13 +452,13 @@ window.DREAMESE_DEFAULT_CONFIG = {
         "number": "04",
         "name": "Thiết kế Nội thất",
         "summary": "Đồng bộ vật liệu và chi phí tối ưu với chất lượng phù hợp nhất, hướng đến lối sống cá nhân hóa.",
-        "image": "assets/services/interior-cartoon.webp",
+        "image": "assets/services/interior.webp",
         "href": "Qtr_TKNT.html",
         "linkLabel": "Quy trình triển khai →",
         "mobile": {
           "name": "Thiết kế Nội thất",
           "summary": "Đồng bộ vật liệu và chi phí tối ưu với chất lượng phù hợp nhất, hướng đến lối sống cá nhân hóa.",
-          "image": "assets/services/interior-cartoon.webp",
+          "image": "assets/services/interior.webp",
           "href": "Qtr_TKNT.html",
           "linkLabel": "Quy trình triển khai →"
         }
