@@ -24,6 +24,8 @@
   let activeMediaVideoId = '';
   let mediaPlayerLoadTimer = 0;
   let mediaPlayerReady = false;
+  let mediaPlayerState = 'poster';
+  const MEDIA_POSTER = 'assets/blog/dreamese-poster.svg';
 
   function escapeHtml(value = '') {
     return String(value).replace(/[&<>'"]/g, (char) => ({
@@ -163,105 +165,72 @@
     }
   }
 
-  async function loadTikTokThumbnail(item, card) {
-    const sourceUrl = normalizeMediaUrl(deviceValue(item, 'url', item.url));
-    const videoId = getTikTokVideoId(sourceUrl);
-    if (!videoId || !card) return;
-
-    const img = q('img', card);
-    const placeholder = q('.media-cover-placeholder', card);
-
-    try {
-      const endpoint = `https://www.tiktok.com/oembed?url=${encodeURIComponent(sourceUrl)}`;
-      const response = await fetch(endpoint, { mode: 'cors', credentials: 'omit' });
-      if (!response.ok) return;
-      const metadata = await response.json();
-      if (!metadata?.thumbnail_url) return;
-
-      let targetImage = img;
-      if (!targetImage) {
-        targetImage = document.createElement('img');
-        targetImage.loading = 'lazy';
-        targetImage.alt = deviceValue(item, 'title', item.title);
-        q('.media-visual', card)?.prepend(targetImage);
-      }
-      targetImage.src = metadata.thumbnail_url;
-      targetImage.hidden = false;
-      placeholder?.classList.add('is-hidden');
-    } catch {
-      // Giữ ảnh được cấu hình trong Manager nếu TikTok/oEmbed bị chặn.
-    }
-  }
-
   function setMediaPlayerState(state, message = '') {
+    mediaPlayerState = state;
     const player = q('#mediaOverlayPlayer');
     const poster = q('#mediaPlayerPoster');
     const playButton = q('#mediaOverlayPlay');
     const playerMessage = q('#mediaPlayerMessage');
-
     if (!player || !poster || !playButton || !playerMessage) return;
 
-    const showNativePlayer = state === 'player';
-    player.hidden = !showNativePlayer;
-    poster.hidden = showNativePlayer;
-    playerMessage.textContent = '';
-    playerMessage.hidden = true;
-
-    playButton.hidden = showNativePlayer;
-    playButton.disabled = false;
+    const loading = state === 'loading';
+    player.hidden = state !== 'player' && !loading;
+    poster.hidden = state === 'player';
+    poster.classList.toggle('is-loading', loading);
+    playButton.hidden = state === 'player' || loading;
+    playButton.disabled = loading;
     const label = playButton.querySelector('strong');
-    if (label) {
-      label.textContent = state === 'external'
-        ? 'MỞ VIDEO GỐC'
-        : 'PHÁT VIDEO';
-    }
+    if (label) label.textContent = state === 'external' ? 'MỞ TRÊN TIKTOK' : 'XEM BÀI VIẾT';
+    playerMessage.setAttribute('role', 'status');
+    playerMessage.textContent = message;
+    playerMessage.hidden = !message;
+    q('#mediaOverlay')?.setAttribute('aria-busy', String(loading));
   }
 
   function resetMediaPlayer() {
     window.clearTimeout(mediaPlayerLoadTimer);
     mediaPlayerLoadTimer = 0;
     mediaPlayerReady = false;
+    // A fresh browsing context prevents late messages from an old post
+    // from marking the next post as ready.
     const player = q('#mediaOverlayPlayer');
     if (player) {
-      player.dataset.expectedVideoId = '';
       player.src = 'about:blank';
-      player.hidden = true;
+      const freshPlayer = player.cloneNode(false);
+      freshPlayer.dataset.expectedVideoId = '';
+      freshPlayer.hidden = true;
+      player.replaceWith(freshPlayer);
     }
+  }
+
+  function showMediaFailure() {
+    resetMediaPlayer();
+    setMediaPlayerState('external', 'TikTok hiện chưa tải được bài viết này. Bạn có thể mở bài gốc trên TikTok.');
   }
 
   function openMediaExternally() {
     if (!activeMediaSourceUrl) return;
-    const opened = window.open(activeMediaSourceUrl, '_blank', 'noopener,noreferrer');
-    if (!opened) window.location.href = activeMediaSourceUrl;
+    const link = q('#mediaOverlayLink');
+    if (link) link.click();
   }
 
   function startMediaPlayback(event) {
     event?.preventDefault?.();
-
-    if (!activeMediaSourceUrl) return;
-
-    const buttonLabel = q('#mediaOverlayPlay strong')?.textContent || '';
-    const requestsExternalOpen = buttonLabel.includes('MỞ VIDEO');
-
-    // TikTok's embedded player is unreliable when the website is opened as file://.
-    // In that case, or after an embed error, the same button becomes a guaranteed direct navigation.
-    if (requestsExternalOpen || window.location.protocol === 'file:' || !activeMediaPlayerUrl) {
+    if (!activeMediaSourceUrl || mediaPlayerState === 'loading') return;
+    if (mediaPlayerState === 'external' || window.location.protocol === 'file:' || !activeMediaPlayerUrl) {
       openMediaExternally();
       return;
     }
-
     resetMediaPlayer();
     const player = q('#mediaOverlayPlayer');
     if (!player) return;
-
     player.dataset.expectedVideoId = activeMediaVideoId;
-    player.src = activeMediaPlayerUrl;
-    setMediaPlayerState('player');
-
+    player.addEventListener('error', showMediaFailure, { once: true });
+    setMediaPlayerState('loading', 'Đang kết nối TikTok…');
     mediaPlayerLoadTimer = window.setTimeout(() => {
-      if (mediaPlayerReady) return;
-      setMediaPlayerState('external');
-    }, 7000);
+      if (!mediaPlayerReady) showMediaFailure();
+    }, 10000);
+    player.src = activeMediaPlayerUrl;
   }
 
   function deviceValue(item, key, fallback = '') {
@@ -500,42 +469,36 @@
     });
   }
 
-  let blogPreviewObserver;
   function renderMedia() {
-    blogPreviewObserver?.disconnect();
     q('#mediaEyebrow').textContent = deviceValue(config.media, 'eyebrow', config.media.eyebrow);
     q('#mediaTitle').textContent = deviceValue(config.media, 'title', config.media.title);
+    if (activeMediaSourceUrl) closeOverlays();
     mediaRail.innerHTML = config.media.items.map((item, index) => {
       const title = deviceValue(item, 'title', item.title);
       const url = normalizeMediaUrl(deviceValue(item, 'url', item.url));
-      const id = getTikTokVideoId(url);
+      const cover = String(deviceValue(item, 'image', item.image) || '').trim();
       return `<article class="media-card" data-media-index="${index}">
-        <div class="media-visual" data-post-id="${escapeHtml(id)}">
-          <div class="media-cover-placeholder"><span>♪</span><small>Đang tải TikTok…</small></div>
-        </div>
-        <div class="media-copy"><small>@dreamese.studio</small><h3>${escapeHtml(title)}</h3>
-          <button type="button" class="blog-expand">Xem lớn</button>
-          <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Mở trên TikTok ↗</a>
+        <button type="button" class="media-visual blog-cover${cover ? '' : ' is-branded-cover'}" aria-label="Xem ${escapeHtml(title)}">
+          <img src="${escapeHtml(cover || MEDIA_POSTER)}" alt="" loading="lazy" decoding="async">
+          <span class="blog-cover-heading"><small>DREAMESE JOURNAL</small><strong>${escapeHtml(title)}</strong></span>
+          <span class="media-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z" fill="currentColor"/></svg></span>
+          <span class="blog-cover-label">Xem bài viết</span>
+        </button>
+        <div class="media-copy"><small>${escapeHtml(deviceValue(item, 'label', item.label) || '@dreamese.studio')}</small><h3>${escapeHtml(title)}</h3>
+          <div class="blog-card-actions"><button type="button" class="blog-expand" aria-label="Xem lớn ${escapeHtml(title)}">Xem lớn</button>
+          ${url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" aria-label="Mở ${escapeHtml(title)} trên TikTok">Mở trên TikTok</a>` : ''}</div>
         </div></article>`;
     }).join('');
-    blogPreviewObserver = new IntersectionObserver(entries => {
-      entries.forEach(({target, isIntersecting}) => {
-        const frame = target.querySelector('iframe');
-        if (!isIntersecting) { frame?.remove(); return; }
-        if (frame || !target.dataset.postId) return;
-        const player = document.createElement('iframe');
-        player.title = 'Preview TikTok — Dreamese Studio';
-        player.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
-        player.allowFullscreen = true;
-        player.referrerPolicy = 'origin';
-        player.src = 'https://www.tiktok.com/player/v1/' + target.dataset.postId +
-          '?autoplay=1&muted=1&controls=1&loop=1&description=0&music_info=0&rel=0';
-        target.append(player);
-      });
-    }, { threshold: 0.1 });
     qa('.media-card').forEach(card => {
-      blogPreviewObserver.observe(q('.media-visual', card));
-      q('.blog-expand', card).addEventListener('click', () => openMedia(Number(card.dataset.mediaIndex)));
+      const image = q('.media-visual img', card);
+      image.addEventListener('error', () => {
+        q('.blog-cover', card).classList.add('is-branded-cover');
+        if (image.getAttribute('src') !== MEDIA_POSTER) image.src = MEDIA_POSTER;
+        else image.hidden = true;
+      });
+      const open = () => openMedia(Number(card.dataset.mediaIndex));
+      q('.blog-cover', card).addEventListener('click', open);
+      q('.blog-expand', card).addEventListener('click', open);
     });
     enableHorizontalWheel(mediaRail);
   }
@@ -623,7 +586,7 @@
     const placeholderVideoId = q('#mediaPosterVideoId');
     const directLink = q('#mediaOverlayLink');
     const cardImage = q(`.media-card[data-media-index="${index}"] img`)?.currentSrc || q(`.media-card[data-media-index="${index}"] img`)?.src || '';
-    const configuredImage = cardImage || String(deviceValue(item, 'image', item.image) || '').trim();
+    const configuredImage = cardImage || String(deviceValue(item, 'image', item.image) || '').trim() || MEDIA_POSTER;
 
     resetMediaPlayer();
 
@@ -648,30 +611,21 @@
       directLink.href = activeMediaSourceUrl;
       directLink.hidden = false;
       directLink.removeAttribute('aria-disabled');
-      directLink.textContent = activeMediaPlayerUrl ? 'MỞ VIDEO GỐC ↗' : 'MỞ LIÊN KẾT ↗';
+      directLink.textContent = 'MỞ TRÊN TIKTOK';
     } else if (directLink) {
       directLink.href = '#';
       directLink.hidden = true;
       directLink.setAttribute('aria-disabled', 'true');
     }
 
-    if (window.location.protocol === 'file:' && activeMediaSourceUrl) {
-      setMediaPlayerState('external');
-    } else if (activeMediaPlayerUrl) {
-      // Load the official player immediately. The user then clicks TikTok's own play button,
-      // avoiding conflicts with our custom overlay and browser autoplay rules.
-      const player = q('#mediaOverlayPlayer');
-      if (player) {
-        player.dataset.expectedVideoId = activeMediaVideoId;
-        player.src = activeMediaPlayerUrl;
-      }
-      setMediaPlayerState('player');
-    } else if (activeMediaSourceUrl) {
-      setMediaPlayerState('external');
+    if (!activeMediaSourceUrl) {
+      setMediaPlayerState('external', 'Chưa có liên kết cho bài viết này.');
+    } else if (window.location.protocol === 'file:' || !activeMediaPlayerUrl) {
+      setMediaPlayerState('external', 'Mở bài viết trên TikTok để tiếp tục xem.');
     } else {
-      setMediaPlayerState('external');
+      setMediaPlayerState('poster');
+      startMediaPlayback();
     }
-
   }
 
   function openNews(index) {
@@ -726,6 +680,7 @@
       element.setAttribute('aria-hidden', 'true');
     });
     resetMediaPlayer();
+    setMediaPlayerState('poster');
     activeMediaSourceUrl = '';
     activeMediaPlayerUrl = '';
     activeMediaVideoId = '';
@@ -1120,34 +1075,26 @@
       if (directLink && !activeMediaSourceUrl) event.preventDefault();
     });
 
-    q('#mediaOverlayPlayer')?.addEventListener('load', (event) => {
-      const player = event.currentTarget;
-      if (!activeMediaPlayerUrl || !activeMediaVideoId) return;
-      if (player.dataset.expectedVideoId !== activeMediaVideoId) return;
-      if (!String(player.src).includes(`/player/v1/${activeMediaVideoId}`)) return;
-      window.setTimeout(() => {
-        if (player.dataset.expectedVideoId !== activeMediaVideoId) return;
-        mediaPlayerReady = true;
-        window.clearTimeout(mediaPlayerLoadTimer);
-        setMediaPlayerState('player');
-      }, 700);
-    });
-
     window.addEventListener('message', (event) => {
-      if (!String(event.origin || '').includes('tiktok.com')) return;
-      const payload = event.data || {};
-      if (!payload['x-tiktok-player']) return;
-
+      const player = q('#mediaOverlayPlayer');
+      if (!player || event.source !== player.contentWindow || !activeMediaVideoId) return;
+      if (!['loading', 'player'].includes(mediaPlayerState)) return;
+      if (player.dataset.expectedVideoId !== activeMediaVideoId) return;
+      try {
+        const origin = new URL(event.origin);
+        if (origin.protocol !== 'https:' || !['www.tiktok.com', 'tiktok.com'].includes(origin.hostname)) return;
+      } catch { return; }
+      let payload = event.data;
+      if (typeof payload === 'string') {
+        try { payload = JSON.parse(payload); } catch { return; }
+      }
+      if (!payload || payload['x-tiktok-player'] !== true) return;
       if (payload.type === 'onPlayerReady') {
         mediaPlayerReady = true;
         window.clearTimeout(mediaPlayerLoadTimer);
         setMediaPlayerState('player');
-      }
-
-      if (payload.type === 'onPlayerError') {
-        mediaPlayerReady = false;
-        window.clearTimeout(mediaPlayerLoadTimer);
-        setMediaPlayerState('external');
+      } else if (payload.type === 'onPlayerError' || payload.type === 'onError') {
+        showMediaFailure();
       }
     });
 
@@ -1257,3 +1204,4 @@
     bindGlobalEvents();
   });
 })();
+
