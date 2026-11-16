@@ -19,6 +19,7 @@ for filename,expected in baseline.items():
  for text in expected['paragraphs']+expected['facts']:
   assert text in visible,f'{filename}: missing project copy'
  if expected['quote']:assert expected['quote'] in visible,filename
+ if expected.get('partner'):assert expected['partner'] in visible,filename
  assert [x['description'] for x in data['photos'] if x['description']]==expected['captionDescriptions'],filename
  for url in urls:
   assert url in known if known is not None else (ROOT/url).is_file(),url

@@ -188,6 +188,7 @@
     ],
     "quote": "“Trải nghiệm sức sống mới”",
     "captionDescriptions": [],
+    "partner": "TITAN Construction",
     "pages": 68
   },
   "Lean_Villa.html": {
@@ -248,6 +249,7 @@
       "Nằm trong khu vực có nhiều nắng, việc sử dụng giải pháp 2 lớp cấu tạo và có tính năng chuyển động, giúp giảm lượng nhiệt tác động \n                            trực tiếp vào nhà, đồng thời cũng linh hoạt hơn vào những mùa có nhiệt độ mát mẻ.",
       "Công trình có 2 tầng, có chiều ngang lớn và tách bạch."
     ],
+    "partner": "",
     "pages": 17
   },
   "TT_Villa.html": {
@@ -368,6 +370,7 @@
       "Không gian được đặt tại vị trí trung tâm của ngôi nhà, có thông tầng lớn và tầm nhìn đa chiều.",
       "Tương phản lớn nhất của công trình là dù ngay cả khi cùng là phong cách Hiện đại, nhưng màu sắc và cách thể hiện trong không gian được phối cách nhẹ nhàng và tinh giản hơn."
     ],
+    "partner": "",
     "pages": 37
   },
   "NamThien1.html": {
@@ -464,6 +467,7 @@
     "captionDescriptions": [
       "Hình khối được cải tạo trên nền công trình cũ với đường nét kỷ hà, mạnh mẽ."
     ],
+    "partner": "MT Construction",
     "pages": 30
   },
   "SimplePC.html": {
@@ -614,6 +618,7 @@
     ],
     "quote": "“Câu chuyện bắt đầu từ những ước mong được chữa lành và góc nhìn tương phản của con người giữa trong và ngoài câu chuyện đó.”",
     "captionDescriptions": [],
+    "partner": "TITAN Construction",
     "pages": 53
   },
   "TVT.html": {
@@ -642,6 +647,7 @@
     "captionDescriptions": [
       "Hình khối mềm mại, gam màu đất và tinh thần Địa Trung Hải đương đại."
     ],
+    "partner": "",
     "pages": 5
   },
   "Chateur.html": {
@@ -714,6 +720,7 @@
     "captionDescriptions": [
       "Hình khối mềm mại, gam màu đất và tinh thần Địa Trung Hải đương đại."
     ],
+    "partner": "MT Construction",
     "pages": 22
   },
   "TranPhuong.html": {
@@ -768,6 +775,7 @@
     "captionDescriptions": [
       "Công trình nổi bật với diện mạo là 1 công trình có thiết kế Tân cổ điển, với đường nét phào - chỉ mạnh mẽ, sắc nét."
     ],
+    "partner": "",
     "pages": 15
   },
   "PN1.html": {
@@ -849,6 +857,7 @@
     "captionDescriptions": [
       "Hình khối sử dụng những đường nét mạnh mẽ và sang trọng."
     ],
+    "partner": "",
     "pages": 25
   },
   "Touch.html": {
@@ -911,6 +920,7 @@
       "Hình khối như chuyển động với phong cách thiết kế Brutalism, được in hằn các bóng đổ giao thoa.",
       "Hình khối như chuyển động với phong cách thiết kế Brutalism, được in hằn các bóng đổ giao thoa."
     ],
+    "partner": "",
     "pages": 17
   },
   "Lavender.html": {
@@ -937,6 +947,7 @@
     ],
     "quote": "“Câu chuyện bắt đầu từ những ước mong được chữa lành và góc nhìn tương phản của con người giữa trong và ngoài câu chuyện đó.”",
     "captionDescriptions": [],
+    "partner": "",
     "pages": 5
   },
   "Heal_Hill.html": {
@@ -1003,6 +1014,7 @@
       "Việc bố trí công trình có hành lang bên và mái hiên đua ra, giúp cho công trình có được 1 cấu tạo 2 lớp, vừa đón nắng đón gió hiệu quả.",
       "Là không gian nghỉ ngơi, tuy nhỏ, nhưng khả năng kết nối lại vô cùng to lớn."
     ],
+    "partner": "MT Construction",
     "pages": 16
   },
   "ThanVanNhiep.html": {
@@ -1029,6 +1041,7 @@
     ],
     "quote": "2 khái niệm trên cùng 1 công trình là 2 góc nhìn của trong và ngoài",
     "captionDescriptions": [],
+    "partner": "",
     "pages": 5
   },
   "Ada.html": {
@@ -1086,6 +1099,7 @@
     ],
     "quote": "\"Đối thoại cùng phát triển\"",
     "captionDescriptions": [],
+    "partner": "",
     "pages": 18
   }
 }

@@ -7,3 +7,4 @@
 /* The root scroll padding already reserves the sticky header. */
 .book-sheet,.book-contact{scroll-margin-top:0}
 #bookPrevious,#bookNext{font-family:Arial,sans-serif}
+.book-collaboration a{display:flex;align-items:center;flex-wrap:wrap;gap:8px}.book-collaboration img{height:17px;width:auto;max-width:65px;object-fit:contain;filter:grayscale(1);opacity:.75}
