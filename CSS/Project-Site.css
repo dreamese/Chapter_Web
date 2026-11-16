@@ -451,3 +451,12 @@
 .gallery-page img:not([src]) {
     background: #1a1a1a;
 }
+
+/* Explicit project copy font, including album captions and introductory quotes. */
+.project-slogan,
+.project-meta,
+.story-text,
+.project-content > p,
+.lb-caption {
+    font-family: "Avo", Arial, Helvetica, sans-serif;
+}

@@ -1,4 +1,12 @@
 @font-face {
+  font-family: 'UTM Avo';
+  src: url('fonts/UTM_Avo.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'UTM Charlotte';
   src: url('../css/fonts/UTM_Charlotte.ttf') format('truetype');
   font-style: normal;
@@ -1169,3 +1177,9 @@ body.overlay-open { overflow: hidden; }
 .media-cover-placeholder small { display:block; font:12px Arial,sans-serif; }
 .media-copy .blog-expand, .media-copy > a { display:inline-block; margin:12px 12px 0 0; padding:8px 0; font:12px Arial,sans-serif; color:#dfba86; }
 .media-copy .blog-expand { border:0; background:none; cursor:pointer; }
+
+/* Project descriptions and small slogans share UTM Avo on both layouts. */
+.project-title-wrap p,
+.project-bottom {
+  font-family: 'UTM Avo', Arial, Helvetica, sans-serif;
+}
