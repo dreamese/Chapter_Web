@@ -26,6 +26,7 @@
   let mediaPlayerReady = false;
   let mediaPlayerState = 'poster';
   const MEDIA_POSTER = 'assets/blog/dreamese-poster.svg';
+  let blogPreviewController = null;
 
   function escapeHtml(value = '') {
     return String(value).replace(/[&<>'"]/g, (char) => ({
@@ -470,6 +471,8 @@
   }
 
   function renderMedia() {
+    blogPreviewController?.destroy();
+    blogPreviewController = null;
     q('#mediaEyebrow').textContent = deviceValue(config.media, 'eyebrow', config.media.eyebrow);
     q('#mediaTitle').textContent = deviceValue(config.media, 'title', config.media.title);
     if (activeMediaSourceUrl) closeOverlays();
@@ -478,12 +481,13 @@
       const url = normalizeMediaUrl(deviceValue(item, 'url', item.url));
       const cover = String(deviceValue(item, 'image', item.image) || '').trim();
       return `<article class="media-card" data-media-index="${index}">
-        <button type="button" class="media-visual blog-cover${cover ? '' : ' is-branded-cover'}" aria-label="Xem ${escapeHtml(title)}">
+        <div class="media-visual blog-preview-slot" data-post-id="${escapeHtml(getTikTokVideoId(url))}" data-title="${escapeHtml(title)}">
+        <button type="button" class="blog-cover${cover ? '' : ' is-branded-cover'}" aria-label="Xem trước ${escapeHtml(title)}">
           <img src="${escapeHtml(cover || MEDIA_POSTER)}" alt="" loading="lazy" decoding="async">
           <span class="blog-cover-heading"><small>DREAMESE JOURNAL</small><strong>${escapeHtml(title)}</strong></span>
           <span class="media-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z" fill="currentColor"/></svg></span>
-          <span class="blog-cover-label">Xem bài viết</span>
-        </button>
+          <span class="blog-cover-label">Xem trước TikTok</span>
+        </button><p class="blog-preview-status" role="status" hidden></p></div>
         <div class="media-copy"><small>${escapeHtml(deviceValue(item, 'label', item.label) || '@dreamese.studio')}</small><h3>${escapeHtml(title)}</h3>
           <div class="blog-card-actions"><button type="button" class="blog-expand" aria-label="Xem lớn ${escapeHtml(title)}">Xem lớn</button>
           ${url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" aria-label="Mở ${escapeHtml(title)} trên TikTok">Mở trên TikTok</a>` : ''}</div>
@@ -497,8 +501,11 @@
         else image.hidden = true;
       });
       const open = () => openMedia(Number(card.dataset.mediaIndex));
-      q('.blog-cover', card).addEventListener('click', open);
       q('.blog-expand', card).addEventListener('click', open);
+    });
+    blogPreviewController = window.createDreameseBlogPreviews?.(mediaRail) || null;
+    if (!blogPreviewController) qa('.blog-cover', mediaRail).forEach(button => {
+      button.addEventListener('click', () => openMedia(Number(button.closest('.media-card').dataset.mediaIndex)));
     });
     enableHorizontalWheel(mediaRail);
   }
@@ -575,6 +582,7 @@
     // Mở lớp phủ trước. openOverlay() sẽ dọn trạng thái video cũ, vì vậy dữ liệu
     // của video mới phải được gán sau bước này để không bị xóa ngay lập tức.
     openOverlay(q('#mediaOverlay'));
+    blogPreviewController?.suspend();
 
     activeMediaSourceUrl = normalizeMediaUrl(deviceValue(item, 'url', item.url));
     activeMediaVideoId = getTikTokVideoId(activeMediaSourceUrl);
@@ -685,6 +693,7 @@
     activeMediaPlayerUrl = '';
     activeMediaVideoId = '';
     document.body.classList.remove('overlay-open');
+    blogPreviewController?.resume();
   }
 
   function navigateLink(link) {
@@ -1204,4 +1213,5 @@
     bindGlobalEvents();
   });
 })();
+
 

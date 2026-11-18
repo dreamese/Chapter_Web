@@ -27,7 +27,7 @@ const context={URL,URLSearchParams,console,
   activeMediaSourceUrl:'https://www.tiktok.com/@dreamese.studio/photo/7707139553760414983',
   activeMediaVideoId:'7707139553760414983',
   activeMediaPlayerUrl:'https://www.tiktok.com/player/v1/7707139553760414983',
-  mediaPlayerReady:false,mediaPlayerState:'poster',mediaPlayerLoadTimer:0,
+  mediaPlayerReady:false,mediaPlayerState:'poster',mediaPlayerLoadTimer:0,blogPreviewController:null,getTikTokVideoId:()=> '7707139553760414983',
   closeOverlays:()=>{},deviceValue:(item,key,fallback)=>item[key]??fallback,
   escapeHtml:value=>String(value).replace(/[<>&"']/g,'_'),normalizeMediaUrl:value=>value,
   enableHorizontalWheel:()=>{},MEDIA_POSTER:'assets/blog/dreamese-poster.svg',
@@ -39,7 +39,7 @@ vm.runInContext(extract('  function setMediaPlayerState(','  function deviceValu
 vm.runInContext(extract('  function renderMedia()','  function renderNews()'),context);
 vm.runInContext(extract("    window.addEventListener('message', (event) => {\n      const player",'    enableMobileProjectSectionSwipe();'),context);
 context.renderMedia();
-assert(!context.mediaRail.innerHTML.includes('<iframe'),'Opening Blog must not mount a TikTok player');
+assert(!context.mediaRail.innerHTML.includes('<iframe'),'Card markup must not eagerly mount players; the preview queue owns requests');
 assert(context.mediaRail.innerHTML.includes('assets/blog/dreamese-poster.svg'),'Missing covers use a local poster');
 assert.equal(timers.size,0);
 context.startMediaPlayback();
