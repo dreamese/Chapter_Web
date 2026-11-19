@@ -23,8 +23,12 @@ function pending(){return mounted().filter(f=>!f.parent.cover.hidden);}
 function message(frame,type,origin='https://www.tiktok.com',value){listeners.get('message')({origin,source:frame.contentWindow,data:{'x-tiktok-player':true,type,value}});}
 assert.equal(frames.length,0,'No requests while the Blog is outside the viewport');
 visible([0,1,2,3,4]);tick(100);assert.equal(pending().length,1);tick(700);assert.equal(pending().length,2);tick(700);assert.equal(pending().length,2,'Never load more than two previews at once');
-const first=mounted()[0];message(first,'onPlayerReady','https://www.tiktok.com.evil.example');assert.equal(slots[0].cover.hidden,false,'Ignore spoofed origin');
+const first=mounted()[0];message(first,'onError','https://www.tiktok.com',1);assert(mounted().includes(first),'An aborted music load must not remove a pending preview');message(first,'onPlayerReady','https://www.tiktok.com.evil.example');assert.equal(slots[0].cover.hidden,false,'Ignore spoofed origin');
 first.events.get('load')();assert.equal(first.hidden,false);assert.equal(slots[0].cover.hidden,true);
+message(first,'onError','https://www.tiktok.com',1);
+message(first,'onPlayerError','https://www.tiktok.com',{errorCode:3002,errorType:'AUTOPLAY_ERROR'});
+assert(mounted().includes(first),'Preserve a ready carousel after aborted music and blocked autoplay');
+assert.equal(slots[0].cover.hidden,true,'Do not cover loaded photos with the failure poster');
 for(let i=0;i<8;i++){pending().forEach(f=>message(f,'onPlayerReady'));tick(700);}
 assert.equal(mounted().length,5,'Visible cards get real inline players');
 visible([1,2,3,4]);tick(100);visible([0,1,2,3,4]);tick(100);assert(mounted().includes(first),'Do not reload a ready preview when scrolling back');
@@ -34,6 +38,9 @@ const playing=mounted().find(f=>f.parent===slots[2]);message(playing,'onStateCha
 assert(mounted().filter(f=>f!==playing).every(f=>f.contentWindow.messages.some(m=>m.type==='pause')),'Pause other players when one starts');
 visible([7]);tick(700);const failing=pending().find(f=>f.parent===slots[7]);assert(failing);tick(12000);assert(failing.removed,'Failed authentication without a ready event times out');assert(slots[7].notice.textContent.includes('Chạm'));assert.equal(slots[7].cover.hidden,false);
 const count=frames.length;tick(1000);assert.equal(frames.length,count,'No automatic retry loop for failed posts');slots[7].cover.events.get('click')();const retry=pending().find(f=>f.parent===slots[7]);assert(retry && retry!==failing,'A deliberate tap can retry');
-controller.suspend();assert(retry.removed,'Opening the popup cancels pending inline loads');const suspendedCount=frames.length;tick(30000);assert.equal(frames.length,suspendedCount);controller.resume();tick(100);assert(mounted().length<=6);
+message(retry,'onPlayerReady');message(retry,'onPlayerError','https://www.tiktok.com',{errorCode:1001,errorType:'INVALID_VIDEO'});
+assert(retry.removed,'A genuine invalid-post error must still unload the frame');
+slots[7].cover.events.get('click')();tick(700);const beforeSuspend=pending().find(f=>f.parent===slots[7]);assert(beforeSuspend);
+controller.suspend();assert(beforeSuspend.removed,'Opening the popup cancels pending inline loads');const suspendedCount=frames.length;tick(30000);assert.equal(frames.length,suspendedCount);controller.resume();tick(100);assert(mounted().length<=6);
 controller.destroy();assert.equal(mounted().length,0);assert.equal(timers.size,0);assert(!listeners.has('message'));
 console.log('PASS: real visible inline previews; max 2 pending / 6 cached; no viewport churn; stale/spoofed events ignored; timeout and explicit retry; popup suspension; cleanup.');

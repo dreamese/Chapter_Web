@@ -1103,6 +1103,10 @@
         window.clearTimeout(mediaPlayerLoadTimer);
         setMediaPlayerState('player');
       } else if (payload.type === 'onPlayerError' || payload.type === 'onError') {
+        // Blocked music autoplay does not invalidate a photo carousel or its preview.
+        const code = Number(payload.type === 'onError' ? payload.value : payload.value?.errorCode);
+        if ((payload.type === 'onError' && code === 1) ||
+            (payload.type === 'onPlayerError' && code === 3002)) return;
         showMediaFailure();
       }
     });

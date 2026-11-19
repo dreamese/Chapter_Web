@@ -124,6 +124,10 @@
       if (payload.type === 'onPlayerReady' && slot.state === 'loading') {
         ready(slot);
       } else if (payload.type === 'onPlayerError' || payload.type === 'onError') {
+        // A photo carousel stays usable when its music is aborted or autoplay is blocked.
+        const code = Number(payload.type === 'onError' ? payload.value : payload.value?.errorCode);
+        if ((payload.type === 'onError' && code === 1) ||
+            (payload.type === 'onPlayerError' && code === 3002)) return;
         fail(slot);
       } else if (payload.type === 'onStateChange' && Number(payload.value) === 1) {
         if (suspended || !slot.visible || document.hidden) pause(slot);
@@ -150,3 +154,4 @@
     };
   };
 })();
+
