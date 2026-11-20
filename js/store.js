@@ -292,7 +292,9 @@
 
   async function loadFileConfig() {
     try {
-      const response = await fetch(`site-config.json?ts=${Date.now()}`, { cache: 'no-store' });
+      // 'no-cache' = luôn hỏi lại máy chủ nhưng dùng ETag (trả 304, không tải lại cả file).
+      // Trước đây dùng ?ts=Date.now() + 'no-store' nên mỗi lần mở trang đều tải lại toàn bộ site-config.json.
+      const response = await fetch('site-config.json', { cache: 'no-cache' });
       if (!response.ok) return null;
       return await response.json();
     } catch {
