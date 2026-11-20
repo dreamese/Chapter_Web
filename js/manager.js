@@ -722,7 +722,7 @@
     if (hostname.endsWith('.github.io') && pathParts[0]) {
       return `${hostname.replace(/\.github\.io$/, '')}/${pathParts[0]}`;
     }
-    return 'dreamese/titan_construction';
+    return 'dreamese/temp_site';
   }
 
   function readGitHubSettings() {
@@ -1232,7 +1232,8 @@
 
       const assetPaths = collectLocalAssetPaths(prepared.publishedConfig);
       [
-        'assets/logo/dreamese-mark.png',
+        'assets/logo/temp-mark.png',
+        'assets/logo/temp-mark-dark.png',
         'css/fonts/UTM_Charlotte.ttf',
         'css/fonts/UTM_Caviar.ttf'
       ].forEach((path) => assetPaths.add(path));
@@ -1311,7 +1312,7 @@
         contentBase64: textToBase64(JSON.stringify(prepared.publishedConfig, null, 2))
       }
     ];
-    const commitMessage = 'Update Dreamese Chapter Site from Manager';
+    const commitMessage = 'Update Temp Studio site from Manager';
     let changedFiles = 0;
 
     for (let index = 0; index < files.length; index += 1) {

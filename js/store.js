@@ -118,6 +118,23 @@
     const normalized = mergeDeep(clone(defaults), config || {});
     normalized.version = '0.8.0';
 
+    const previousBrandDefaults = {
+      name: 'DREAMESE STUDIO',
+      browserTitle: 'Dreamese Studio — Architecture & Interior Design',
+      metaDescription: 'Dreamese Studio — Kiến trúc & Nội thất',
+      logo: 'assets/logo/dreamese-mark.png',
+      favicon: 'assets/logo/dreamese-mark.png',
+      tagline: 'Dịch giả ngôn ngữ giấc mơ',
+      socialLabel: 'Website Dreamese',
+      socialUrl: 'https://dreamese.github.io/dreamesestudio/'
+    };
+    Object.entries(previousBrandDefaults).forEach(([field, previousValue]) => {
+      if (normalized.brand[field] === previousValue) normalized.brand[field] = defaults.brand[field];
+      if (normalized.brand.mobile?.[field] === previousValue) {
+        normalized.brand.mobile[field] = defaults.brand.mobile?.[field] ?? defaults.brand[field];
+      }
+    });
+
     normalized.brand.browserTitle = normalized.brand.browserTitle || normalized.brand.name || defaults.brand.browserTitle;
     normalized.brand.favicon = normalized.brand.favicon || normalized.brand.logo || defaults.brand.favicon;
     normalized.brand.metaDescription = normalized.brand.metaDescription || defaults.brand.metaDescription || '';

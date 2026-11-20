@@ -1,29 +1,29 @@
 {
   "version": "0.8.0",
   "brand": {
-    "browserTitle": "Dreamese Studio — Architecture & Interior Design",
-    "favicon": "assets/logo/dreamese-mark.png",
-    "metaDescription": "Dreamese Studio — Kiến trúc & Nội thất",
+    "browserTitle": "Temp Studio — Architecture & Interior Design",
+    "favicon": "assets/logo/temp-mark.png",
+    "metaDescription": "Temp Studio — Kiến trúc & Nội thất",
     "themeColor": "#050505",
-    "name": "DREAMESE STUDIO",
-    "tagline": "Dịch giả ngôn ngữ giấc mơ",
-    "logo": "assets/logo/dreamese-mark.png",
+    "name": "TEMP STUDIO",
+    "tagline": "Kiến trúc & Nội thất",
+    "logo": "assets/logo/temp-mark-dark.png",
     "logoLink": "index.html",
     "email": "vtv.arc@gmail.com",
     "phone": "09 4363 4758",
     "location": "TP. Hồ Chí Minh, Việt Nam",
-    "socialLabel": "Website Dreamese",
-    "socialUrl": "https://dreamese.github.io/dreamesestudio/",
+    "socialLabel": "Website Temp",
+    "socialUrl": "https://dreamese.github.io/temp_site/index.html",
     "mobile": {
-      "name": "DREAMESE STUDIO",
-      "tagline": "Dịch giả ngôn ngữ giấc mơ",
-      "logo": "assets/logo/dreamese-mark.png",
+      "name": "TEMP STUDIO",
+      "tagline": "Kiến trúc & Nội thất",
+      "logo": "assets/logo/temp-mark-dark.png",
       "logoLink": "index.html",
       "email": "vtv.arc@gmail.com",
       "phone": "09 4363 4758",
       "location": "TP. Hồ Chí Minh, Việt Nam",
-      "socialLabel": "Website Dreamese",
-      "socialUrl": "https://dreamese.github.io/dreamesestudio/"
+      "socialLabel": "Website Temp",
+      "socialUrl": "https://dreamese.github.io/temp_site/index.html"
     }
   },
   "navigation": [
@@ -471,19 +471,19 @@
   },
   "media": {
     "eyebrow": "Blog",
-    "title": "Những câu chuyện từ Dreamese Studio",
+    "title": "Những câu chuyện từ Temp Studio",
     "items": [
       {
         "title": "Câu chuyện ảnh 01",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7707139553760414983",
         "mobile": {
           "title": "Câu chuyện ảnh 01",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7707139553760414983"
         }
       },
@@ -491,13 +491,13 @@
         "title": "Câu chuyện ảnh 02",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7703903866420497672",
         "mobile": {
           "title": "Câu chuyện ảnh 02",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7703903866420497672"
         }
       },
@@ -505,13 +505,13 @@
         "title": "Video 03",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7703138660119612679",
         "mobile": {
           "title": "Video 03",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7703138660119612679"
         }
       },
@@ -519,13 +519,13 @@
         "title": "Câu chuyện ảnh 04",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7702285728079760647",
         "mobile": {
           "title": "Câu chuyện ảnh 04",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7702285728079760647"
         }
       },
@@ -533,13 +533,13 @@
         "title": "Câu chuyện ảnh 05",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7701525283630746887",
         "mobile": {
           "title": "Câu chuyện ảnh 05",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7701525283630746887"
         }
       },
@@ -547,13 +547,13 @@
         "title": "Câu chuyện ảnh 06",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7700561230259342600",
         "mobile": {
           "title": "Câu chuyện ảnh 06",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7700561230259342600"
         }
       },
@@ -561,13 +561,13 @@
         "title": "Câu chuyện ảnh 07",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7699744184265182471",
         "mobile": {
           "title": "Câu chuyện ảnh 07",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7699744184265182471"
         }
       },
@@ -575,13 +575,13 @@
         "title": "Câu chuyện ảnh 08",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7698742242219117832",
         "mobile": {
           "title": "Câu chuyện ảnh 08",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7698742242219117832"
         }
       },
@@ -589,13 +589,13 @@
         "title": "Câu chuyện ảnh 09",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7697939356778073351",
         "mobile": {
           "title": "Câu chuyện ảnh 09",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7697939356778073351"
         }
       },
@@ -603,13 +603,13 @@
         "title": "Video 10",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7697452396976295186",
         "mobile": {
           "title": "Video 10",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7697452396976295186"
         }
       },
@@ -617,13 +617,13 @@
         "title": "Câu chuyện ảnh 11",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7697267746211368193",
         "mobile": {
           "title": "Câu chuyện ảnh 11",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7697267746211368193"
         }
       },
@@ -631,13 +631,13 @@
         "title": "Câu chuyện ảnh 12",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7696693480797588743",
         "mobile": {
           "title": "Câu chuyện ảnh 12",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7696693480797588743"
         }
       },
@@ -645,13 +645,13 @@
         "title": "Câu chuyện ảnh 13",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7695739650320747783",
         "mobile": {
           "title": "Câu chuyện ảnh 13",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7695739650320747783"
         }
       },
@@ -659,13 +659,13 @@
         "title": "Câu chuyện ảnh 14",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7695036323878456594",
         "mobile": {
           "title": "Câu chuyện ảnh 14",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7695036323878456594"
         }
       },
@@ -673,13 +673,13 @@
         "title": "Câu chuyện ảnh 15",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7694678069801569544",
         "mobile": {
           "title": "Câu chuyện ảnh 15",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7694678069801569544"
         }
       },
@@ -687,13 +687,13 @@
         "title": "Câu chuyện ảnh 16",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7694306753592298770",
         "mobile": {
           "title": "Câu chuyện ảnh 16",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7694306753592298770"
         }
       },
@@ -701,13 +701,13 @@
         "title": "Câu chuyện ảnh 17",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7693923313617341714",
         "mobile": {
           "title": "Câu chuyện ảnh 17",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7693923313617341714"
         }
       },
@@ -715,13 +715,13 @@
         "title": "Câu chuyện ảnh 18",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7693482254172982546",
         "mobile": {
           "title": "Câu chuyện ảnh 18",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7693482254172982546"
         }
       },
@@ -729,13 +729,13 @@
         "title": "Câu chuyện ảnh 19",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7693164518737710354",
         "mobile": {
           "title": "Câu chuyện ảnh 19",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7693164518737710354"
         }
       },
@@ -743,13 +743,13 @@
         "title": "Câu chuyện ảnh 20",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7692804899221884178",
         "mobile": {
           "title": "Câu chuyện ảnh 20",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7692804899221884178"
         }
       },
@@ -757,13 +757,13 @@
         "title": "Câu chuyện ảnh 21",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7692751852357668103",
         "mobile": {
           "title": "Câu chuyện ảnh 21",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7692751852357668103"
         }
       },
@@ -771,13 +771,13 @@
         "title": "Câu chuyện ảnh 22",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7692450186597240071",
         "mobile": {
           "title": "Câu chuyện ảnh 22",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7692450186597240071"
         }
       },
@@ -785,13 +785,13 @@
         "title": "Câu chuyện ảnh 23",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7692057274348621064",
         "mobile": {
           "title": "Câu chuyện ảnh 23",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7692057274348621064"
         }
       },
@@ -799,13 +799,13 @@
         "title": "Câu chuyện ảnh 24",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7691697357456624903",
         "mobile": {
           "title": "Câu chuyện ảnh 24",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7691697357456624903"
         }
       },
@@ -813,13 +813,13 @@
         "title": "Video 25",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7691684565080902919",
         "mobile": {
           "title": "Video 25",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7691684565080902919"
         }
       },
@@ -827,13 +827,13 @@
         "title": "Video 26",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7691334014761815303",
         "mobile": {
           "title": "Video 26",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7691334014761815303"
         }
       },
@@ -841,13 +841,13 @@
         "title": "Video 27",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7691280236058610952",
         "mobile": {
           "title": "Video 27",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7691280236058610952"
         }
       },
@@ -855,13 +855,13 @@
         "title": "Video 28",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7690959987027217672",
         "mobile": {
           "title": "Video 28",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7690959987027217672"
         }
       },
@@ -869,13 +869,13 @@
         "title": "Câu chuyện ảnh 29",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7690582050629225736",
         "mobile": {
           "title": "Câu chuyện ảnh 29",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7690582050629225736"
         }
       },
@@ -883,13 +883,13 @@
         "title": "Câu chuyện ảnh 30",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7690199157423852808",
         "mobile": {
           "title": "Câu chuyện ảnh 30",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7690199157423852808"
         }
       },
@@ -897,13 +897,13 @@
         "title": "Video 31",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7690056633199774994",
         "mobile": {
           "title": "Video 31",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7690056633199774994"
         }
       },
@@ -911,13 +911,13 @@
         "title": "Video 32",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7690044365934251272",
         "mobile": {
           "title": "Video 32",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7690044365934251272"
         }
       },
@@ -925,13 +925,13 @@
         "title": "Câu chuyện ảnh 33",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7689824338341629191",
         "mobile": {
           "title": "Câu chuyện ảnh 33",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7689824338341629191"
         }
       },
@@ -939,13 +939,13 @@
         "title": "Câu chuyện ảnh 34",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7689455496918551816",
         "mobile": {
           "title": "Câu chuyện ảnh 34",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7689455496918551816"
         }
       },
@@ -953,13 +953,13 @@
         "title": "Câu chuyện ảnh 35",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7688710079289330951",
         "mobile": {
           "title": "Câu chuyện ảnh 35",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7688710079289330951"
         }
       },
@@ -967,13 +967,13 @@
         "title": "Câu chuyện ảnh 36",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7688338444376018183",
         "mobile": {
           "title": "Câu chuyện ảnh 36",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7688338444376018183"
         }
       },
@@ -981,13 +981,13 @@
         "title": "Video 37",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7687957751451946248",
         "mobile": {
           "title": "Video 37",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7687957751451946248"
         }
       },
@@ -995,13 +995,13 @@
         "title": "Câu chuyện ảnh 38",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7687527758334921992",
         "mobile": {
           "title": "Câu chuyện ảnh 38",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7687527758334921992"
         }
       },
@@ -1009,13 +1009,13 @@
         "title": "Video 39",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7687513124391406855",
         "mobile": {
           "title": "Video 39",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7687513124391406855"
         }
       },
@@ -1023,13 +1023,13 @@
         "title": "Video 40",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7687205999777746183",
         "mobile": {
           "title": "Video 40",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7687205999777746183"
         }
       },
@@ -1037,13 +1037,13 @@
         "title": "Câu chuyện ảnh 41",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7686860817890905362",
         "mobile": {
           "title": "Câu chuyện ảnh 41",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7686860817890905362"
         }
       },
@@ -1051,13 +1051,13 @@
         "title": "Câu chuyện ảnh 42",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7686489114295749906",
         "mobile": {
           "title": "Câu chuyện ảnh 42",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7686489114295749906"
         }
       },
@@ -1065,13 +1065,13 @@
         "title": "Video 43",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7686173792032345362",
         "mobile": {
           "title": "Video 43",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7686173792032345362"
         }
       },
@@ -1079,13 +1079,13 @@
         "title": "Câu chuyện ảnh 44",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7685903483538820359",
         "mobile": {
           "title": "Câu chuyện ảnh 44",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7685903483538820359"
         }
       },
@@ -1093,13 +1093,13 @@
         "title": "Video 45",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7685406140208925959",
         "mobile": {
           "title": "Video 45",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7685406140208925959"
         }
       },
@@ -1107,13 +1107,13 @@
         "title": "Câu chuyện ảnh 46",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7684997803977788690",
         "mobile": {
           "title": "Câu chuyện ảnh 46",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7684997803977788690"
         }
       },
@@ -1121,13 +1121,13 @@
         "title": "Video 47",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7684994313771601160",
         "mobile": {
           "title": "Video 47",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7684994313771601160"
         }
       },
@@ -1135,13 +1135,13 @@
         "title": "Video 48",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7684643634364321032",
         "mobile": {
           "title": "Video 48",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7684643634364321032"
         }
       },
@@ -1149,13 +1149,13 @@
         "title": "Câu chuyện ảnh 49",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7684307945143733511",
         "mobile": {
           "title": "Câu chuyện ảnh 49",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7684307945143733511"
         }
       },
@@ -1163,13 +1163,13 @@
         "title": "Câu chuyện ảnh 50",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7683909357163040018",
         "mobile": {
           "title": "Câu chuyện ảnh 50",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7683909357163040018"
         }
       },
@@ -1177,13 +1177,13 @@
         "title": "Câu chuyện ảnh 51",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7683541126204230920",
         "mobile": {
           "title": "Câu chuyện ảnh 51",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7683541126204230920"
         }
       },
@@ -1191,13 +1191,13 @@
         "title": "Câu chuyện ảnh 52",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7683294235390381319",
         "mobile": {
           "title": "Câu chuyện ảnh 52",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7683294235390381319"
         }
       },
@@ -1205,13 +1205,13 @@
         "title": "Câu chuyện ảnh 53",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7682784429579750664",
         "mobile": {
           "title": "Câu chuyện ảnh 53",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7682784429579750664"
         }
       },
@@ -1219,13 +1219,13 @@
         "title": "Video 54",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/video/7682432561724902664",
         "mobile": {
           "title": "Video 54",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/video/7682432561724902664"
         }
       },
@@ -1233,13 +1233,13 @@
         "title": "Câu chuyện ảnh 55",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7682063816041041170",
         "mobile": {
           "title": "Câu chuyện ảnh 55",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7682063816041041170"
         }
       },
@@ -1247,13 +1247,13 @@
         "title": "Câu chuyện ảnh 56",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7681314168229694738",
         "mobile": {
           "title": "Câu chuyện ảnh 56",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7681314168229694738"
         }
       },
@@ -1261,20 +1261,20 @@
         "title": "Câu chuyện ảnh 57",
         "label": "@dreamese.studio",
         "image": "",
-        "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+        "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
         "url": "https://www.tiktok.com/@dreamese.studio/photo/7680946090769648914",
         "mobile": {
           "title": "Câu chuyện ảnh 57",
           "label": "@dreamese.studio",
           "image": "",
-          "description": "Khám phá không gian và câu chuyện thiết kế cùng Dreamese Studio.",
+          "description": "Khám phá không gian và câu chuyện thiết kế cùng Temp Studio.",
           "url": "https://www.tiktok.com/@dreamese.studio/photo/7680946090769648914"
         }
       }
     ],
     "mobile": {
       "eyebrow": "Blog",
-      "title": "Những câu chuyện từ Dreamese Studio"
+      "title": "Những câu chuyện từ Temp Studio"
     }
   },
   "news": {
@@ -1304,13 +1304,13 @@
         "number": "02",
         "date": "26.07.2026",
         "category": "Studio Note",
-        "title": "Quy trình phát triển một concept nội thất tại Dreamese Studio",
+        "title": "Quy trình phát triển một concept nội thất tại Temp Studio",
         "subtitle": "Thiết kế bắt đầu từ đối thoại, không bắt đầu từ hình thức",
         "description": "Một concept được phát triển từ thói quen sử dụng, nhu cầu thật, ngân sách và câu chuyện mà chủ nhân muốn gìn giữ.",
         "image": "assets/projects/02-thu-dieu.svg",
         "href": "#contact",
         "mobile": {
-          "title": "Quy trình phát triển một concept nội thất tại Dreamese Studio",
+          "title": "Quy trình phát triển một concept nội thất tại Temp Studio",
           "subtitle": "Thiết kế bắt đầu từ đối thoại, không bắt đầu từ hình thức",
           "description": "Một concept được phát triển từ thói quen sử dụng, nhu cầu thật, ngân sách và câu chuyện mà chủ nhân muốn gìn giữ.",
           "image": "assets/projects/02-thu-dieu.svg",
@@ -1323,13 +1323,13 @@
         "number": "03",
         "date": "18.07.2026",
         "category": "Blog",
-        "title": "Dreamese Studio mở rộng nội dung video ngắn trên TikTok",
+        "title": "Temp Studio mở rộng nội dung video ngắn trên TikTok",
         "subtitle": "Những khoảnh khắc của công trình được kể lại bằng chuyển động",
         "description": "Series video mới tập trung vào ánh sáng, vật liệu, chuyển động trong không gian và những câu chuyện hậu trường.",
         "image": "assets/projects/03-tvt-home.svg",
         "href": "#media",
         "mobile": {
-          "title": "Dreamese Studio mở rộng nội dung video ngắn trên TikTok",
+          "title": "Temp Studio mở rộng nội dung video ngắn trên TikTok",
           "subtitle": "Những khoảnh khắc của công trình được kể lại bằng chuyển động",
           "description": "Series video mới tập trung vào ánh sáng, vật liệu, chuyển động trong không gian và những câu chuyện hậu trường.",
           "image": "assets/projects/03-tvt-home.svg",
@@ -1498,7 +1498,7 @@
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Dreamese Studio — Đồng hành kiến tạo không gian sống.",
+    "title": "Temp Studio — Đồng hành kiến tạo không gian sống.",
     "cards": [
       {
         "type": "info",
@@ -1546,7 +1546,7 @@
         "type": "maps",
         "title": "Maps",
         "lines": [
-          "Liên hệ Dreamese Studio để được hướng dẫn đến văn phòng."
+          "Liên hệ Temp Studio để được hướng dẫn đến văn phòng."
         ],
         "image": "",
         "link": "mailto:vtv.arc@gmail.com",
@@ -1554,7 +1554,7 @@
         "mobile": {
           "title": "Maps",
           "lines": [
-            "Liên hệ Dreamese Studio để được hướng dẫn đến văn phòng."
+            "Liên hệ Temp Studio để được hướng dẫn đến văn phòng."
           ],
           "image": "",
           "link": "mailto:vtv.arc@gmail.com",
@@ -1565,28 +1565,28 @@
         "type": "social",
         "title": "Website",
         "lines": [
-          "Dreamese Studio — Kiến trúc & Nội thất"
+          "Temp Studio — Kiến trúc & Nội thất"
         ],
         "image": "",
-        "link": "https://dreamese.github.io/dreamesestudio/",
+        "link": "https://dreamese.github.io/temp_site/index.html",
         "linkLabel": "Truy cập website →",
         "mobile": {
           "title": "Website",
           "lines": [
-            "Dreamese Studio — Kiến trúc & Nội thất"
+            "Temp Studio — Kiến trúc & Nội thất"
           ],
           "image": "",
-          "link": "https://dreamese.github.io/dreamesestudio/",
+          "link": "https://dreamese.github.io/temp_site/index.html",
           "linkLabel": "Truy cập website →"
         },
         "socialLinks": [
           {
             "platform": "website",
-            "label": "Dreamese Studio",
-            "url": "https://dreamese.github.io/dreamesestudio/",
+            "label": "Temp Studio",
+            "url": "https://dreamese.github.io/temp_site/index.html",
             "mobile": {
-              "label": "Dreamese Studio",
-              "url": "https://dreamese.github.io/dreamesestudio/"
+              "label": "Temp Studio",
+              "url": "https://dreamese.github.io/temp_site/index.html"
             }
           }
         ]
@@ -1594,7 +1594,7 @@
     ],
     "mobile": {
       "eyebrow": "Contact",
-      "title": "Dreamese Studio — Đồng hành kiến tạo không gian sống."
+      "title": "Temp Studio — Đồng hành kiến tạo không gian sống."
     }
   },
   "contentRevision": "chapter-local-20261116"

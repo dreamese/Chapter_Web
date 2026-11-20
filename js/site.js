@@ -484,7 +484,7 @@
         <div class="media-visual blog-preview-slot" data-post-id="${escapeHtml(getTikTokVideoId(url))}" data-title="${escapeHtml(title)}">
         <button type="button" class="blog-cover${cover ? '' : ' is-branded-cover'}" aria-label="Xem trước ${escapeHtml(title)}">
           <img src="${escapeHtml(cover || MEDIA_POSTER)}" alt="" loading="lazy" decoding="async">
-          <span class="blog-cover-heading"><small>DREAMESE JOURNAL</small><strong>${escapeHtml(title)}</strong></span>
+          <span class="blog-cover-heading"><small>TEMP JOURNAL</small><strong>${escapeHtml(title)}</strong></span>
           <span class="media-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z" fill="currentColor"/></svg></span>
           <span class="blog-cover-label">Xem trước TikTok</span>
         </button><p class="blog-preview-status" role="status" hidden></p></div>
@@ -553,7 +553,7 @@
         : `class="contact-card contact-${escapeHtml(card.type)} linked-card" tabindex="0" role="link" data-contact-index="${index}" data-card-link="${escapeHtml(link)}" aria-label="Mở ${escapeHtml(title)}"`;
       return `
         <article ${cardAttributes}>
-          ${image ? `<div class="contact-card-image"><img src="${escapeHtml(image)}" alt="${escapeHtml(title)}" loading="lazy"></div>` : (card.type === 'maps' ? '<div class="map-placeholder">MAPS<br>Dreamese Studio</div>' : '')}
+          ${image ? `<div class="contact-card-image"><img src="${escapeHtml(image)}" alt="${escapeHtml(title)}" loading="lazy"></div>` : (card.type === 'maps' ? '<div class="map-placeholder">MAPS<br>Temp Studio</div>' : '')}
           <div class="contact-card-body">
             <h3>${escapeHtml(title)}</h3>
             ${isSocial ? socialHtml : lines.map((line) => `<p>${escapeHtml(line)}</p>`).join('')}

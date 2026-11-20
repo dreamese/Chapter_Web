@@ -175,9 +175,9 @@
         const defaultTemplates = {
             header: `
                 <a href="index.html" class="logo-link">
-                    <img src="Dreamese_Studio.webp" alt="Logo DREAMESE STUDIO">
+                    <img src="assets/logo/temp-mark.png" alt="Logo TEMP STUDIO">
                     <div class="logo-stack">
-                        <span class="logo-text">DREAMESE STUDIO</span>
+                        <span class="logo-text">TEMP STUDIO</span>
                     </div>
                 </a>
             `,
@@ -185,7 +185,7 @@
             footer: `
                 <div class="project-footer-default">
                     <div class="project-footer-default__copyright">
-                        © DREAMESE STUDIO – Architecture &amp; Interior Design
+                        © TEMP STUDIO – Architecture &amp; Interior Design
                     </div>
                     <div class="project-footer-default__contact">
                         <a href="mailto:vtv.arc@gmail.com">vtv.arc@gmail.com</a>
@@ -232,9 +232,9 @@
         const templates = {
             header: `
                 <a href="index.html" class="logo-link">
-                    <img src="Dreamese_Studio.webp" alt="Logo DREAMESE STUDIO">
+                    <img src="assets/logo/temp-mark.png" alt="Logo TEMP STUDIO">
                     <div class="logo-stack">
-                        <span class="logo-text">DREAMESE STUDIO</span>
+                        <span class="logo-text">TEMP STUDIO</span>
                         <span class="logo-collab">In collaboration with ${safeName}</span>
                     </div>
                 </a>
@@ -813,7 +813,7 @@
             }
 
             lbImg.src = source;
-            lbImg.alt = image.alt || "Ảnh công trình Dreamese Studio";
+            lbImg.alt = image.alt || "Ảnh công trình Temp Studio";
             lbTitle.textContent = image.dataset.title || "";
             lbDesc.textContent = image.dataset.desc || "";
 
